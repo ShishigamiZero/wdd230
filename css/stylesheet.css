@@ -1,0 +1,36 @@
+body{
+    font-family: "Spline Sans";
+    margin:auto;
+    width: 25%;
+}
+.titlebox{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: limegreen;
+    padding: 20px;
+    border-radius: 10px;
+}
+.ianimage{
+    grid-column: 1;
+}
+h1{
+    font-weight: 600;
+    grid-column: 2;
+    text-align:center;
+    align-items: center;
+}
+h2{
+    font-weight: 500;
+    border-bottom: 1em;
+    margin-left: 20px;
+}
+ul{
+    margin-left: 20px;
+}
+footer{
+    background-color: limegreen;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
