@@ -1,7 +1,7 @@
 body{
     font-family: "Spline Sans";
     margin:auto;
-    width: 35%;
+    width: 25%;
     margin-top: 25px;
 }
 .titlebox{
@@ -23,19 +23,20 @@ h1{
 }
 h2{
     font-weight: 500;
-    border-bottom: 1em;
-    margin-left: 20px;
+    border-bottom: 2px solid black;
     text-align: center;
+    margin-bottom: 0;
 }
 ul{
     list-style-type: disc;
-    width: auto;
 }
 .maingrid{
     display: grid;
     grid-template-columns: 1fr;
-    align-items: center;
-    text-align: center;
+    border-bottom: 2px solid black;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 20px;
 }
 footer{
     background-color: limegreen;
