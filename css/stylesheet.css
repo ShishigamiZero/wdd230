@@ -25,9 +25,17 @@ h2{
     font-weight: 500;
     border-bottom: 1em;
     margin-left: 20px;
+    text-align: center;
 }
 ul{
-    margin-left: 20px;
+    list-style-type: disc;
+    width: auto;
+}
+.maingrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: center;
 }
 footer{
     background-color: limegreen;
