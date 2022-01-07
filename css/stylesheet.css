@@ -2,6 +2,7 @@ body{
     font-family: "Spline Sans";
     margin:auto;
     width: 35%;
+    margin-top: 25px;
 }
 .titlebox{
     display: grid;
@@ -18,6 +19,7 @@ h1{
     grid-column: 2;
     text-align:center;
     align-items: center;
+    padding-top: 25px;
 }
 h2{
     font-weight: 500;
