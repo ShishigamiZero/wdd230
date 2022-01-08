@@ -2,9 +2,9 @@ body{
     font-family: "Spline Sans";
     margin:auto;
     max-width: 600px;
-    margin-top: 25px;
 }
 .titlebox{
+    margin-top: 25px;
     display: grid;
     grid-template-columns: 30% 70%;
     background-color: limegreen;
