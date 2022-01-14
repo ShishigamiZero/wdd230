@@ -1,0 +1,13 @@
+@media (min-width:32.5em) {
+    .titlebox {
+        background-color: blue;
+        color: white;
+    }
+}
+
+@media (min-width:64em) {
+    .titlebox {
+        background-color: limegreen;
+        color: black;
+    }
+}

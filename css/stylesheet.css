@@ -1,5 +1,4 @@
-body{
-    font-family: "Spline Sans";
+.indexbody{
     margin:auto;
     max-width: 600px;
 }
@@ -14,20 +13,23 @@ body{
 .ianimage{
     grid-column: 1;
 }
-h1{
+#indexheader{
+    font-family: "Spline Sans", sans-serif, Helvetica;
     font-weight: 600;
     grid-column: 2;
     text-align:center;
     align-items: center;
     padding-top: 25px;
 }
-h2{
+#portallist{
+    font-family: "Poppins", sans-serif, Helvetica;
     font-weight: 500;
     border-bottom: 2px solid black;
     text-align: center;
     margin-bottom: 0;
 }
 ul{
+    font-family: "Poppins", sans-serif, Helvetica;
     list-style-type: disc;
 }
 .maingrid{
@@ -39,9 +41,64 @@ ul{
     margin-bottom: 20px;
 }
 footer{
+    font-family: "Spline Sans", sans-serif, Helvetica;
     background-color: limegreen;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
 }
+/* The following rules are specific to the Lesson 2 Assignment*/
 
+.les2body{
+    margin:auto;
+    max-width: 75%;
+}
+
+.l2titlebox{
+    margin-top: 25px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    background-color: limegreen;
+    padding: 20px;
+    border-radius: 10px;
+}
+#les2header{
+    font-family: "Spline Sans", sans-serif, Helvetica;
+    font-weight: 600;
+    grid-column: 2;
+    text-align:center;
+    align-items: center;
+    padding-top: 25px;
+}
+.designgrid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 10px;
+}
+.designbox{
+    background-color: lightgray;
+    border-radius: 5px;
+    border: 2px solid gray;
+    margin: 10px;
+
+    width: 87%;
+    align-items: center;
+    font-family: "Poppins", sans-serif, Helvetica;
+}
+
+.designbox h3{
+    background-color: gray;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.designbox h4, p{
+    margin: 0px;
+    padding: 10px;
+}
+
+.mobileimg{
+    align-items: center;
+}
