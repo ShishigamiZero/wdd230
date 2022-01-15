@@ -1,7 +1,7 @@
-@media (min-width:37.5em) {
+@media (min-width:60em) {
     .titlebox {
-        background-color: blue;
-        color: white;
+        background-color: limegreen;
+        color: black;
         display: grid;
         grid-template-columns: 30% 70%;
     }
@@ -12,23 +12,21 @@
         grid-column: span 1;
     }
     .designgrid{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     #des3:nth-child(3){
-        grid-column: span 2;
+        grid-column: span 1;
     }
     #portallist{
-        font-weight: 700;
-    }
-    ul{
         font-weight: 500;
     }
+    ul{
+        font-weight: 400;
+    }
     footer{
-        background-color: blue;
-        color: white;
+        background-color: limegreen;
     }
     .l2titlebox{
-        background-color: blue;
-            color: white;
+        background-color: limegreen;
     }
 }

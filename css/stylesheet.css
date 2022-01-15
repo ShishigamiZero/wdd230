@@ -4,26 +4,27 @@
 }
 .titlebox{
     margin-top: 25px;
-    display: grid;
-    grid-template-columns: 30% 70%;
-    background-color: limegreen;
+    background-color: rgb(205, 68, 50);
     padding: 20px;
     border-radius: 10px;
 }
 .ianimage{
-    grid-column: 1;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 #indexheader{
     font-family: "Spline Sans", sans-serif, Helvetica;
     font-weight: 600;
-    grid-column: 2;
-    text-align:center;
+    text-align: center;
     align-items: center;
     padding-top: 25px;
+
 }
 #portallist{
     font-family: "Poppins", sans-serif, Helvetica;
-    font-weight: 500;
+    font-weight: 700;
     border-bottom: 2px solid black;
     text-align: center;
     margin-bottom: 0;
@@ -31,6 +32,7 @@
 ul{
     font-family: "Poppins", sans-serif, Helvetica;
     list-style-type: disc;
+    font-weight: 500;
 }
 .maingrid{
     display: grid;
@@ -42,7 +44,8 @@ ul{
 }
 footer{
     font-family: "Spline Sans", sans-serif, Helvetica;
-    background-color: limegreen;
+    background-color: rgb(205, 68, 50);
+    margin-bottom: 25px;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -58,7 +61,7 @@ footer{
     margin-top: 25px;
     display: grid;
     grid-template-rows: 50% 50%;
-    background-color: limegreen;
+    background-color: rgb(205, 68, 50);
     padding: 20px;
     border-radius: 10px;
 }
@@ -72,15 +75,15 @@ footer{
 }
 .designgrid{
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 1fr;
     grid-gap: 10px;
+    justify-items: center;
 }
 .designbox{
     background-color: lightgray;
     border-radius: 5px;
     border: 2px solid gray;
     margin: 10px;
-
     width: 87%;
     align-items: center;
     font-family: "Poppins", sans-serif, Helvetica;
@@ -100,5 +103,7 @@ footer{
 }
 
 .mobileimg{
-    align-items: center;
+    display: block;
+    margin: auto;
+    max-width: 90%;
 }
