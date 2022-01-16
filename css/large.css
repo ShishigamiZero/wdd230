@@ -1,7 +1,7 @@
 @media (min-width:60em) {
     .titlebox {
         background-color: limegreen;
-        color: black;
+        color: white;
         display: grid;
         grid-template-columns: 30% 70%;
     }
