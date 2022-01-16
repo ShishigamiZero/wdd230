@@ -46,6 +46,7 @@ ul{
 }
 footer{
     font-family: "Spline Sans", sans-serif, Helvetica;
+    font-weight: 500;
     background-color: rgb(205, 68, 50);
     color: white;
     margin-bottom: 25px;
