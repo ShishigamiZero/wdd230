@@ -1,7 +1,6 @@
 @media (min-width:37.5em) {
     .titlebox {
         background-color: blue;
-        color: white;
         display: grid;
         grid-template-columns: 30% 70%;
     }
@@ -25,10 +24,8 @@
     }
     footer{
         background-color: blue;
-        color: white;
     }
     .l2titlebox{
         background-color: blue;
-            color: white;
     }
 }

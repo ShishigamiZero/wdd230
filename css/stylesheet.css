@@ -5,6 +5,7 @@
 .titlebox{
     margin-top: 25px;
     background-color: rgb(205, 68, 50);
+    color: white;
     padding: 20px;
     border-radius: 10px;
 }
@@ -45,6 +46,7 @@ ul{
 footer{
     font-family: "Spline Sans", sans-serif, Helvetica;
     background-color: rgb(205, 68, 50);
+    color: white;
     margin-bottom: 25px;
     padding: 20px;
     border-radius: 10px;
@@ -62,6 +64,7 @@ footer{
     display: grid;
     grid-template-rows: 50% 50%;
     background-color: rgb(205, 68, 50);
+    color: white;
     padding: 20px;
     border-radius: 10px;
 }
