@@ -97,13 +97,18 @@ footer{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-.designbox h4, p{
-    margin: 0px;
+.designbox p{
+    margin: 10px;
     padding: 10px;
 }
 
+.designbox h4{
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
 .mobileimg{
     display: block;
     margin: auto;
     max-width: 90%;
 }
+
