@@ -28,4 +28,7 @@
     .l2titlebox{
         background-color: blue;
     }
+    nav ul{
+        flex-direction: row;
+    }
 }
