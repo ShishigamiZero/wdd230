@@ -170,7 +170,7 @@ nav a:hover{
     background-color: #396e35;
     color: moccasin;
 }
-#chamberimage{
+.chamberimage{
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
