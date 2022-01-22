@@ -1,6 +1,6 @@
 @media (min-width:60em) {
     .titlebox {
-        background-color: #396e35;
+
         display: grid;
         grid-template-columns: 30% 70%;
     }
@@ -22,13 +22,13 @@
     ul{
         font-weight: 400;
     }
-    footer{
-        background-color: #396e35;
-    }
-    .l2titlebox{
-        background-color: #396e35;
-    }
     nav ul{
         flex-direction: row;
+    }
+    .les3body{
+        max-width: 75%;
+    }
+    #chambermain{
+        max-width: 90%;
     }
 }

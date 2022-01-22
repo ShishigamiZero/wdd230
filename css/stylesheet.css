@@ -4,7 +4,7 @@
 }
 .titlebox{
     margin-top: 25px;
-    background-color: rgb(205, 68, 50);
+    background-color: #396e35;
     color: white;
     padding: 20px;
     border-radius: 10px;
@@ -47,7 +47,7 @@ ul{
 footer{
     font-family: "Spline Sans", sans-serif, Helvetica;
     font-weight: 500;
-    background-color: rgb(205, 68, 50);
+    background-color: #396e35;
     color: white;
     margin-bottom: 25px;
     padding: 20px;
@@ -65,7 +65,7 @@ footer{
     margin-top: 25px;
     display: grid;
     grid-template-rows: 50% 50%;
-    background-color: rgb(205, 68, 50);
+    background-color: #396e35;
     color: white;
     padding: 20px;
     border-radius: 10px;
@@ -120,16 +120,14 @@ footer{
 /* The following applies to the Lesson 3: Chamber of Commerce Site Plan. */
 .les3body{
     margin:auto;
-    max-width: 75%;
-    min-width: 50%;
 }
 #chambermain{
-    max-width: 90%;
     display: grid;
     grid-template-columns: 1fr;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+    word-break: break-word;
 }
 #chambermain h3{
     font-family:"Spline Sans", sans-serif, Helvetica;
@@ -140,6 +138,8 @@ footer{
     font-family: "Poppins", sans-serif, Helvetica;
     font-weight: 400;
     text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .chambnav{
     max-width: 100%;
@@ -171,7 +171,7 @@ nav a:hover{
     color: moccasin;
 }
 #chamberimage{
-    max-width: 100%;
+    max-width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
