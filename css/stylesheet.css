@@ -175,4 +175,24 @@ nav a:hover{
     margin-left: auto;
     margin-right: auto;
 }
-
+.typography{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.typography h3{
+    font-family:"Spline Sans", sans-serif, Helvetica;
+    font-weight: 700;
+}
+#ptypography{
+    font-family: "Poppins", sans-serif, Helvetica;
+    font-weight: 400;
+}
+#robotocon{
+    font-family: "Roboto Condensed", sans-serif, Helvetica;
+    font-weight: 400;
+}
+#barlowcon{
+    font-family: "Barlow Condensed", sans-serif, Helvetica;
+    font-weight: 400;
+}
