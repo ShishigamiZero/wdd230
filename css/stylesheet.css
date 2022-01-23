@@ -134,12 +134,21 @@ footer{
     font-weight: 700;
     text-align: center;
 }
+#chambermain h4{
+    font-family:"Spline Sans", sans-serif, Helvetica;
+    font-weight: 600;
+    text-align: center;
+}
 #chambermain p{
     font-family: "Poppins", sans-serif, Helvetica;
     font-weight: 400;
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
+}
+#chambermain ol{
+    font-family: "Poppins", sans-serif, Helvetica;
+    font-weight: 400;
 }
 .chambnav{
     max-width: 100%;
@@ -195,4 +204,11 @@ nav a:hover{
 #barlowcon{
     font-family: "Barlow Condensed", sans-serif, Helvetica;
     font-weight: 400;
+}
+.taudpage{
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+.personaimage{
+    border: 2px solid black;
 }
