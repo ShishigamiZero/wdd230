@@ -1,6 +1,5 @@
 @media (min-width:60em) {
     .titlebox {
-
         display: grid;
         grid-template-columns: 30% 70%;
     }
