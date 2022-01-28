@@ -12,11 +12,19 @@
     }
     nav button{
         display: none;
+    }    
+    .chamberflex{
+        display: flex;
+        flex-direction: column;
+        grid-gap: 10px;
+        justify-items: center;
     }
     #chambspot3{
         display: none;
     }
-    
+    #join{
+        display: block;
+    }
     #hamburgerBtn span:nth-child(1) {display:none;}
     #hamburgerBtn span:nth-child(2) {display:none;}
     

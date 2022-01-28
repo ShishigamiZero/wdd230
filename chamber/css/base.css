@@ -70,13 +70,15 @@ nav ul{
 #headernav li a{
     color: #FFF;
     display: block;
-
 	padding: .8rem 2vw;
 	text-decoration: none;
     border-top: 1px solid rgba(255,255,255,0.5);
     margin-right: 40px;
 }
 #chambspot3{
+    display: none;
+}
+#join{
     display: none;
 }
 #twit{
