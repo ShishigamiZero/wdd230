@@ -76,8 +76,15 @@ nav ul{
     border-top: 1px solid rgba(255,255,255,0.5);
     margin-right: 40px;
 }
+#chambspot3{
+    display: none;
+}
 #twit{
     border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+#addressend{
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    padding-bottom: 20px;
 }
 #headernav li a:hover{
     color: #498BA6;
