@@ -62,4 +62,41 @@ date {
 #header3{
     text-align: center;
     font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+nav ul{
+    list-style-type: none;
+}
+#headernav li a{
+    color: #FFF;
+    display: block;
+	padding: .8rem 2vw;
+	text-decoration: none;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    margin-right: 30px;
+}
+#twit{
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+#headernav li a:hover{
+    color: #498BA6;
+}
+#headernav li img:hover{
+    background-color: #498BA6;
+}
+nav button{
+	margin: .2rem 2vw;
+	background: #fff;
+	border: 2px solid #555;
+	font-size: 2rem;
+	color: #555;
+}
+#headernav ul.open{
+	display: block;
+}
+#hamburgerBtn span:nth-child(1) {display:block;}
+#hamburgerBtn span:nth-child(2) {display:none;}
+
+#hamburgerBtn.open span:nth-child(1) {display:none;}
+#hamburgerBtn.open span:nth-child(2) {display:block;}
