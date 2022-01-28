@@ -71,6 +71,7 @@ nav ul{
 #headernav li a{
     color: #FFF;
     display: block;
+
 	padding: .8rem 2vw;
 	text-decoration: none;
     border-top: 1px solid rgba(255,255,255,0.5);
@@ -92,9 +93,14 @@ nav button{
 	font-size: 2rem;
 	color: #555;
 }
-#headernav ul.open{
-	display: block;
+nav ul{
+   display: none; 
 }
+nav ul.open{
+	display: block;
+    flex: 1 1 auto;
+}
+
 #hamburgerBtn span:nth-child(1) {display:block;}
 #hamburgerBtn span:nth-child(2) {display:none;}
 
