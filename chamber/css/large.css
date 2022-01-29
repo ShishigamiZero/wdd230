@@ -70,7 +70,7 @@
 
 #footaddress{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
 }
 footer img{
@@ -81,6 +81,10 @@ footer img{
 #address{
     margin-top: 20px;
     grid-column: 2 / 3;
+}
+#footemail{
+    margin-top: 20px;
+    grid-column: 3 / 4;
 }
 }
 
