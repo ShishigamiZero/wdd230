@@ -58,11 +58,13 @@ date{
 #header2 h2 a{
     justify-content: space-between;
 }
-#header3{
+.header3{
     text-align: center;
     font-size: 18px;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 nav ul{
     list-style-type: none;
