@@ -1,5 +1,5 @@
 @media (min-width:37.5em) {
-    nav ul{
+   /* nav ul{
         display: flex;
         flex-direction: row;
         flex: 1 1 auto;
@@ -15,7 +15,8 @@
     }
     nav button{
         display: none;
-    }    
+    }    */
+    
     .chamberflex{
         display: flex;
         flex-direction: column;
@@ -29,11 +30,12 @@
     #join{
         display: block;
     }
+    /*
     #hamburgerBtn span:nth-child(1) {display:none;}
     #hamburgerBtn span:nth-child(2) {display:none;}
     
     #hamburgerBtn.open span:nth-child(1) {display:none;}
     #hamburgerBtn.open span:nth-child(2) {display:none;}
-
+*/
 }
 

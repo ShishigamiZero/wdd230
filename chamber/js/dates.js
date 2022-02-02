@@ -5,7 +5,7 @@ lastmod.innerHTML = `Last Modification: ${document.lastModified}`;
 const year = document.querySelector("#year")
 year.innerHTML = new Date().getFullYear();
 
-const datefield = document.querySelector("date");
+const datefield = document.querySelector("time");
 
 const now = new Date();
 const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(now);
