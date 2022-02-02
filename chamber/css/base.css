@@ -52,6 +52,9 @@ footer{
 	background-color: #eee;
     color: black;
 }
+header p{
+    text-align: center;
+}
 #header1{
     text-align: center;
 }
