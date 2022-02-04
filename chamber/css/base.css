@@ -84,7 +84,11 @@ nav ul{
     align-items: center;
     justify-content: center;
 }
-
+.spotdiv{
+    background-color: lightgray;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
 #chambspot3{
     display: none;
 }

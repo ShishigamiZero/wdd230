@@ -1,6 +1,6 @@
 const list = document.querySelector('ul');
 
-const input = document.querySelector('input');
+const input = document.querySelector('#favchap');
 
 const button = document.querySelector('button');
 button.addEventListener('click', function(){

@@ -67,6 +67,12 @@
     grid-column: 4 / 5;
     grid-row: 3 / 4;
 }
+.spotdiv{
+    margin-top: 10px;
+    grid-column: 4 / 5;
+    grid-row: 1 / 4;
+    margin-bottom: 10px;
+}
 
 #footaddress{
     display: grid;
