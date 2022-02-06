@@ -154,7 +154,20 @@ footer{
     margin-left: auto;  
     margin-right: auto;  
 }
-
+#joinus{
+    font-family: "Barlow Condensed", sans-serif, Helvetica;
+    font-weight: 600;
+    background-color: #1a4173;
+    color: #f8ffdd;
+    padding: 10px 30px 10px 30px;
+    position: absolute;
+}
+#herojoin:hover{
+    background-color: #498ba6;
+}
+#joinus:hover{
+    background-color: #498ba6;
+}
 #hamburgerBtn span:nth-child(1) {display:block;}
 #hamburgerBtn span:nth-child(2) {display:none;}
 

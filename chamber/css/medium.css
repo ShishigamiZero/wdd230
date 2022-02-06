@@ -61,6 +61,11 @@
         grid-column: 3 / 4;
         grid-row: 5 / 6;
     }
+    #joinus{
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
     /*
     #hamburgerBtn span:nth-child(1) {display:none;}

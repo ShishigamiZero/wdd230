@@ -93,7 +93,9 @@ footer img{
     margin-top: 20px;
     grid-column: 3 / 4;
 }
+#joinus{
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-
-
-
+}
