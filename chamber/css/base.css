@@ -2,7 +2,6 @@
     margin:auto;
     max-width: 75%;
 }
-
 .chambertitle{
     margin-top: 25px;
     background-color: #1a4173;
@@ -14,60 +13,6 @@
     grid-template-rows: 33% 33% 33%;
     font-family: "Roboto Condensed", sans-serif, Helvetica;
     font-weight: 700;
-}
-
-footer{
-    font-family: "Roboto Condensed", sans-serif, Helvetica;
-    font-weight: 500;
-    background-color: #1a4173;
-    color: white;
-    margin-bottom: 25px;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-}
-.chamberflex{
-    display: flex;
-    flex-direction: column;
-    grid-gap: 10px;
-    justify-items: center;
-}
-.contentbox{
-    background-color: lightgray;
-    border-radius: 5px;
-    border: 2px solid gray;
-    margin: 10px;
-    align-items: center;
-    font-family: "Barlow Condensed", sans-serif, Helvetica;
-    font-weight: 300;
-    font-size: 20px;
-}
-.contentbox h3{
-    margin: 10px;
-}
-.timestamp{
-	margin: 0.5rem;
-	border: 1px solid #bbb;
-	padding: 0.75rem;
-	background-color: #eee;
-    color: black;
-}
-header p{
-    text-align: center;
-}
-#header1{
-    text-align: center;
-}
-#header2 h2 a{
-    justify-content: space-between;
-}
-.header3{
-    text-align: center;
-    font-size: 18px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
 }
 nav ul{
     list-style-type: none;
@@ -83,21 +28,6 @@ nav ul{
     min-height: 25px;
     align-items: center;
     justify-content: center;
-}
-.spotdiv{
-    background-color: lightgray;
-    border-radius: 5px;
-    border: 2px solid gray;
-}
-#chambspot3{
-    display: none;
-}
-#join{
-    display: none;
-}
-#footaddress{
-    border-bottom: 1px solid rgba(255,255,255,0.5);
-    padding-bottom: 20px;
 }
 #headernav li a:hover{
     background-color: #498BA6;
@@ -118,6 +48,111 @@ nav ul{
 nav ul.open{
 	display: block;
     flex: 1 1 auto;
+}
+.timestamp{
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0.75rem;
+	background-color: #eee;
+    color: black;
+}
+.chamberflex{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    justify-items: center;
+}
+.contentbox{
+    background-color: #cbccc7;
+    border-radius: 5px;
+    border: 2px solid #555;
+    margin: 10px auto;
+    align-items: center;
+    position: relative;
+}
+.contentbox h3{
+    margin: 10px;
+    font-family: "Barlow Condensed", sans-serif, Helvetica;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+.contentbox p{
+    font-family: "Roboto Condensed", sans-serif, Helvetica;
+    margin: 10px;
+    text-align: center;
+}
+header p{
+    text-align: center;
+}
+#header1{
+    text-align: center;
+}
+#header2 h2 a{
+    justify-content: space-between;
+}
+.header3{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.spotdiv{
+    background-color: lightgray;
+    border-radius: 5px;
+    border: 2px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#chambspot3{
+    display: none;
+}
+#join{
+    display: none;
+}
+footer{
+    font-family: "Roboto Condensed", sans-serif, Helvetica;
+    font-weight: 500;
+    background-color: #1a4173;
+    color: white;
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+#footaddress{
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    padding-bottom: 20px;
+}
+#treasurehero{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 4px;
+}
+#herotitle{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    color: #f8ffdd;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#herojoin{
+    font-family: "Barlow Condensed", sans-serif, Helvetica;
+    font-weight: 600;
+    background-color: #1a4173;
+    color: #f8ffdd;
+    padding: 10px 30px 10px 30px;
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+}
+#ducklogo{
+    border: 2px solid #000000;
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
 }
 
 #hamburgerBtn span:nth-child(1) {display:block;}
