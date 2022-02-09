@@ -173,3 +173,14 @@ footer{
 
 #hamburgerBtn.open span:nth-child(1) {display:none;}
 #hamburgerBtn.open span:nth-child(2) {display:block;}
+
+#banner{
+    color: #ffd700;
+    font-size: 20px;
+    padding: 10px 5px 10px 5px;
+    background-color: #000000;
+    border: 2px solid #FFF;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
