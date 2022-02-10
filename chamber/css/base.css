@@ -59,7 +59,7 @@ nav ul.open{
 .chamberflex{
     display: flex;
     flex-direction: column;
-    grid-gap: 10px;
+    grid-gap: 5px;
     justify-items: center;
 }
 .contentbox{
@@ -148,11 +148,12 @@ footer{
     right: 10%;
     bottom: 10%;
 }
-#ducklogo{
-    border: 2px solid #000000;
+#lardlogo{
+    width: 150px;
     display: block;  
     margin-left: auto;  
-    margin-right: auto;  
+    margin-right: auto; 
+    padding: 5px; 
 }
 #joinus{
     font-family: "Barlow Condensed", sans-serif, Helvetica;
@@ -183,4 +184,14 @@ footer{
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
+}
+.spotimg{
+    display: block;
+    width: 150px;
+    margin-left: auto;   
+    margin-right: auto;
+    padding: 5px;
+}
+.tvlogo{
+    width: 150px;
 }

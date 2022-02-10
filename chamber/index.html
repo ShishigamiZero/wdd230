@@ -19,7 +19,11 @@
         <body class="chamberbody">
             <header class="chambertitle">
                 <div id="header1">
-                    <img src="images/TVChambertransparent.png" alt="Treasure Valley Chamber Logo" height="150" width="150" />
+                    <picture>
+                        <source media="(min-width: 37.6em) and (max-width: 59.9em)" srcset="./images/tvchambertransmed.webp">
+                        <source media="(min-width: 60em)" srcset="./images/tvchambertranshigh.webp">
+                        <img class="tvlogo" src="./images/tvchambertranslow.webp" alt="Treasure Valley Chamber Logo" />
+                     </picture> 
                     <p id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
                     <h1>Treasure Valley Chamber of Commerce - Home</h1>
                 </div>
@@ -42,29 +46,50 @@
             <main class="chamberflex">
                 <section class="contentbox" id="hero">
                     <h3 id="herotitle" >Hero with site name and call to action</h3>
-                      <img id="treasurehero" src="./images/treasuryvalleyherosmall2.jpg" alt="Treasure Valley at Sunset" />
+                    <picture>
+                        <source media="(min-width: 37.6em) and (max-width: 59.9em)" srcset="./images/wdd230-orgmed.jpg">
+                        <source media="(min-width: 60em)" srcset="./images/wdd230-orghigh.jpg">
+                        <img id="treasurehero" src="./images/wdd230-orglow.jpg" alt="Week 6 Hero Image" />
+                     </picture> 
+                      <!--<img id="treasurehero" src="./images/treasuryvalleyherosmall2.jpg" alt="Treasure Valley at Sunset" />-->
                     <button id="herojoin" type="button" >Join the TV Chamber!</button>
                 </section>
                 <section class="contentbox" id="news">
                     <h3>News Release</h3>
-                    <img id="ducklogo" src="./images/duckdonutslogosmallertrans2.jpg" alt="Duck Donuts Logo" />
-                    <p>The Treasure Valley Chamber of Commerce would like to welcome Duck Donuts!</p>  
+                    <picture>
+                        <source media="(min-width: 37.6em) and (max-width: 59.9em)" srcset="./images/lardladtransmed.webp">
+                        <source media="(min-width: 60em)" srcset="./images/lardladtranshigh.webp">
+                        <img id="lardlogo" src="./images/lardladtranslow.webp" alt="Lard Lad Donuts Logo" />
+                     </picture> 
+                    <p>The Treasure Valley Chamber of Commerce would like to welcome Lard Lad Donuts! We look forward to working with you!</p>  
                 </section>
                 <div class="spotdiv">
                     <section class="contentbox" id="chambspot1">
-                        <h3>Spotlight 1</h3>
-                        <!--<img id="" src="" alt="" />-->   
-                        <p>This is a placeholder for the Spotlight! #1 If I add more, lets see if this expands the field of spotlight #1. That only added a little bit, so lets add more to see how much larger this field will get. Also, getting transparent images to work with VS Code sucks!</p>
+                        <h3>Powell Automotive</h3>
+                        <picture>
+                            <source media="(min-width: 37.6em) and (max-width: 59.9em)" srcset="./images/powellautotransmed.webp">
+                            <source media="(min-width: 60em)" srcset="./images/powellautotranshigh.webp">
+                            <img class="spotimg" src="./images/powellautotranslow.webp" alt="Powell Automotive Logo" />  
+                        </picture>
+                        <p>Powell Automotive has been providing Treasure Valley residents with cars for over 31 years. Shop at Powell Automotive for a pow-pow-powerful car!</p>
                     </section>
                     <section class="contentbox" id="chambspot2">
-                        <h3>Spotlight 2</h3>
-                        <!--<img id="" src="" alt="" />-->   
-                        <p>This is a placeholder for the Spotlight! #2</p>   
+                        <h3>Mr. Plow Snow Removal</h3>
+                        <picture>
+                            <source media="(min-width: 37.6em) and (max-width: 59.9em)" srcset="./images/mrplowtransmed.webp">
+                            <source media="(min-width: 60em)" srcset="./images/mrplowtranshigh.webp">
+                            <img class="spotimg" src="./images/mrplowtranslow.webp" alt="Mr. Plow Logo" /> 
+                         </picture> 
+                        <p>Mr. Plow removes snow from your streets, driveways and sidewalks. If you need snow gone, call Mr. Plow at KL5-3226. Don't forget to ask about a free T-shirt!</p>   
                     </section>
                     <section class="contentbox" id="chambspot3">
-                        <h3>Spotlight 3</h3>
-                        <!--<img id="" src="" alt="" />-->   
-                        <p>This is a placeholder for the Spotlight! #3</p>    
+                        <h3>Moe's Tavern</h3>
+                        <picture>
+                            <source media="(min-width: 37.6em) and (max-width: 59.9em)" srcset="./images/moestavernmed.webp">
+                            <source media="(min-width: 60em)" srcset="./images/moestaverntranshigh.webp">
+                            <img class="spotimg" src="./images/moestaverntranslow.webp" alt="Moe's Tavern Logo" />  
+                         </picture>                        
+                        <p>Come enjoy a frosty beverage at Moe's Tavern, today!</p>    
                     </section>
                 </div>
                 <section class="contentbox" id="weather">
@@ -77,13 +102,17 @@
                 </section>
                 <section class="contentbox" id="join">
                     <h3>Join</h3>
-                     <p>Join the Treasure Valley Chamber of Commerce, today!</p>
+                     <p>Join the Treasure Valley Chamber of Commerce, today! If you would like more information or to apply, please click the button below!</p>
                      <button id="joinus" type="button" >Join Us!</button>   
                 </section>
             </main>    
             <footer>
                 <div id="footaddress">
-                <img id="tvfootimage" src="images/TVChambertransparent.png" alt="Treasure Valley Chamber Logo" height="150" width="150" />
+                <picture>
+                    <source media="(min-width: 37.6em) and (max-width: 59.9em)" srcset="./images/tvchambertransmed.webp">
+                    <source media="(min-width: 60em)" srcset="./images/tvchambertranshigh.webp">
+                    <img class="tvlogo" src="./images/tvchambertranslow.webp" alt="Treasure Valley Chamber Logo" />
+                </picture> 
                 <div id="address">
                 <p><strong>Treasure Valley Chamber of Commmerce</strong></p>
                 <p>1004 Powerline Rd.</p>
