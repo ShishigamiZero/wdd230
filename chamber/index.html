@@ -94,7 +94,19 @@
                 </div>
                 <section class="contentbox" id="weather">
                     <h3>Weather</h3>
-                    <p>This is a placeholder! In a future update a Treasure Valley Weather app will appear here.</p>
+                    <picture>
+                        <source media="(min-width: 37.6em) and (max-width: 59.9em)" srcset="./images/weathertransmed.webp">
+                        <source media="(min-width: 60em)" srcset="./images/weathertranshigh.webp">
+                        <img class="spotimg" src="./images/weathertranslow.webp" alt="Weather Icon" />  
+                    </picture>
+                    <p>This is a Placeholder that will show what the local weather is like today!</p>   
+                    <p>
+                        Temperature: 57&deg;F<br>
+                        Wind Speed: 15mph<br>
+                    </p>
+                    <p>
+                        Wind Chill: <span id="windchill"></span>&deg;F
+                    </p>
                 </section>
                 <section class="contentbox" id="event">
                     <h3>Event</h3>
@@ -130,5 +142,6 @@
             <script src="./js/dates.js"></script>
             <script src="./js/menu.js"></script>
             <script src="./js/banner.js"></script>
+            <script src="./js/windchill.js"></script>
         </body>
     </html>
