@@ -1,21 +1,21 @@
-h1{
-    font-family: "Permanent Marker", Arial, Helvetica;
-    text-align: center;
-}
 .bodygrid{
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 10px;
+}
+h1{
+    font-family: "Permanent Marker", Arial, Helvetica;
+    text-align: center;
 }
 picture{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-img[data-src]{
+img[data-src] {
     filter: blur(0.5em);
 }
-img[src]{
+img {
     filter: blur(0em);
     transition: filter 3s;
 }
