@@ -195,3 +195,27 @@ footer{
 .tvlogo{
     width: 150px;
 }
+.discovergrid{
+    display: flex;
+    flex-direction: column;
+}
+#discheadline{
+    font-family: "Roboto Condensed", Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+}
+.discdesc{
+    display: flex;
+    font-family: "Barlow Condensed", Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+}
+.discimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
