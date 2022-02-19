@@ -219,3 +219,6 @@ footer{
     margin-left: auto;
     margin-right: auto;
 }
+.discimg:hover{
+    border: 2px solid gold;
+}
