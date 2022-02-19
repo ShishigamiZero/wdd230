@@ -100,7 +100,19 @@ footer img{
 }
 .discovergrid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 90%;
+    grid-template-columns: 60% 40%;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+.discdesc{
+    margin-bottom: 30px;
+}
+.discimg{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 }

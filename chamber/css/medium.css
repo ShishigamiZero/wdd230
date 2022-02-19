@@ -67,17 +67,9 @@
         transform: translate(-50%, -50%);
     }
     .discovergrid{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
     }
-    
-    /*
-    #hamburgerBtn span:nth-child(1) {display:none;}
-    #hamburgerBtn span:nth-child(2) {display:none;}
-    
-    #hamburgerBtn.open span:nth-child(1) {display:none;}
-    #hamburgerBtn.open span:nth-child(2) {display:none;}
-*/
 }
 
