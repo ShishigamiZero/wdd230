@@ -1,3 +1,5 @@
+/*----------- CHAMBER PRIMARY CSS --------------*/
+
 .chamberbody{
     margin:auto;
     max-width: 75%;
@@ -56,6 +58,9 @@ nav ul.open{
 	background-color: #eee;
     color: black;
 }
+
+/*----------- CHAMBER MAIN CSS --------------*/
+
 .chamberflex{
     display: flex;
     flex-direction: column;
@@ -112,6 +117,9 @@ header p{
 #join{
     display: none;
 }
+
+/*----------- CHAMBER FOOTER CSS --------------*/
+
 footer{
     font-family: "Roboto Condensed", sans-serif, Helvetica;
     font-weight: 500;
@@ -163,6 +171,9 @@ footer{
     padding: 10px 30px 10px 30px;
     position: absolute;
 }
+
+/*----------- CHAMBER JOIN US BUTTON AND BANNER CSS --------------*/
+
 #herojoin:hover{
     background-color: #498ba6;
 }
@@ -185,6 +196,9 @@ footer{
     margin-left: auto;
     margin-right: auto;
 }
+
+/*----------- CHAMBER MISC. CSS --------------*/
+
 .spotimg{
     display: block;
     width: 150px;
@@ -195,12 +209,15 @@ footer{
 .tvlogo{
     width: 150px;
 }
+
+/*----------- DISCOVER PRIMARY CSS --------------*/
+
 .discovergrid{
     display: flex;
     flex-direction: column;
     row-gap: 10px;
 }
-#discheadline{
+#discheadline, #joinheadline{
     font-family: "Roboto Condensed", Helvetica, sans-serif;
     font-weight: 700;
     font-size: 32px;
@@ -244,4 +261,81 @@ footer{
     background-color: #555;
     color: #FFD700;
     border: 2px solid #1a4173;
+}
+
+/*----------- JOIN PRIMARY CSS --------------*/
+
+#thank{
+    font-family: "Barlow Condensed", Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#thankspage{
+    margin: 100px 0;
+}
+
+form fieldset{
+    font-family: "Roboto Condensed", Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 2rem 0;
+    border: 1px solid #1a4173;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend{
+    color: #1a4173;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 90%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form input.submitBtn{
+    font-family: "Barlow Condensed", Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    background-color: #1a4173;
+    color: #fff;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border: red solid 4px;
+}
+
+form label.top input:required:valid {
+    border: 1px solid #999;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
 }
