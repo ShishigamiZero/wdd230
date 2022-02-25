@@ -48,8 +48,20 @@
                 <h1 id="joinheadline">
                     Join the Treasure Valley Chamber of Commerce!
                 </h1>
+                <section id="joingrid">
+                    <div id="memlev">
+                        <h2 id="membership">Membership Levels</h2>
+                        <h3 class="levels">Non-Profit Membership</h3>
+                            <p>Placeholder</p>
+                        <h3 class="levels">Bronze Membership</h3>
+                            <p>Placeholder</p>
+                        <h3 class="levels">Silver Membership</h3>
+                            <p>Placeholder</p>
+                        <h3 class="levels">Gold Membership</h3>
+                            <p>Placeholder</p>
+                    </div>
                 <form method="get" action="thankyou.html">
-                    <fieldset>
+                    <fieldset id="busform">
                         <legend>
                             Contact Information
                         </legend>
@@ -60,6 +72,9 @@
                             <label class="top">Cell Phone * <input type="tel" name="phone" placeholder="1235551234" required></label>
                             <label class="top">Business Name/Title * <input type="text" name="business" required></label>
                             <label class="top">Website <input type="url" name="url" placeholder="http://"></label>
+                            <label class="top">Business Information</label>
+                            <textarea  id="description" name="description" rows="4" cols="50">Please enter information about your business here.</textarea>
+                            
                     </fieldset>
 
                     <fieldset>
@@ -72,9 +87,13 @@
                         <label class="sbs"><input type="radio" name="level" value="gold"> Gold Membership</label>
                     </fieldset>
                     
+                    <div class="center">
                     <input class="submitBtn" type="submit" value="Join the Chamber!">
-
+                    <input type="hidden" id="current_date"> 
+                    </div>
                     </form>
+
+                </section>
             </main>
             
         <footer>

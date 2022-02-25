@@ -115,4 +115,18 @@ footer img{
     margin-top: auto;
     margin-bottom: auto;
 }
+
+#joingrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -2.5rem;
+}
+
+#busform{
+    grid-column: 2 / 3;
+}
+
+#memlev{
+    grid-column: 1 / 2;
+}
 }
