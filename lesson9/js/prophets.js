@@ -1,5 +1,10 @@
 const requestURL = "https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json";
-//const cards = document.querySelector('.cards');
+const cards = document.querySelector('.cards');
+
+//Code to add Ordinal Number Suffixes to Prophet Order
+const ordinalSuffix = ['st', 'nd', 'rd']
+const addSuffix = n => n + (ordinalSuffix[(n - 1) % 10] || 'th')
+const numberToOrdinal = n => `${n}`.match(/1\d$/) ? n + 'th' : addSuffix(n)
 
 fetch(requestURL)
   .then(function (response) {
@@ -21,12 +26,12 @@ fetch(requestURL)
   
     // Change the textContent property of the h2 element to contain the prophet's full name
     h2.textContent = `${prophet.name} ${prophet.lastname}`;
-    p.textContent = `Birth Date: ${prophet.birthdate}
-    Birth Place: ${prophet.birthplace}`;
+    p.innerHTML = `<strong>Birth Date:</strong> ${prophet.birthdate} <br/>
+    <strong>Birth Place:</strong> ${prophet.birthplace}`;
   
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', prophet.imageurl);
-    portrait.setAttribute('alt', `Portait of  ${prophet.name} ${prophet.lastname} - President of the Church #${prophet.order}`);
+    portrait.setAttribute('alt', `Portait of  ${prophet.name} ${prophet.lastname} - Latter-day Saint President #${prophet.order}`);
     portrait.setAttribute('loading', 'lazy');
   
     // Add/append the section(card) with the h2 element
