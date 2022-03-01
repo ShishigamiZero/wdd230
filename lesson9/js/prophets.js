@@ -7,10 +7,10 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
+      
+    const prophets = jsonObject["prophets"];
+    prophets.forEach(displayProphets);
   });
-
-  const prophets = jsonObject["prophets"];
-  prophets.forEach(displayProphets);
 
   function displayProphets(prophet) {
     // Create elements to add to the document
@@ -26,7 +26,7 @@ fetch(requestURL)
   
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', prophet.imageurl);
-    portrait.setAttribute('alt', `Portait of  ${prophet.name} ${prophet.lastname} - ${prophet.order}`);
+    portrait.setAttribute('alt', `Portait of  ${prophet.name} ${prophet.lastname} - President of the Church #${prophet.order}`);
     portrait.setAttribute('loading', 'lazy');
   
     // Add/append the section(card) with the h2 element
