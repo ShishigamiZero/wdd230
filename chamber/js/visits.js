@@ -3,6 +3,7 @@ function createDays(){
     let lastvisit;
         if(lastvisit === undefined){
             document.getElementById('visits').innerText = "0";
+            lastvisit = Date.now();
         }
         lastvisit = window.localStorage.getItem('lastvisit');
 
