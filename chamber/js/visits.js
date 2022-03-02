@@ -1,7 +1,8 @@
 function createDays(){
 
     let lastvisit;
-        if(lastvisit === undefined){
+    //might need to change == back to ===.
+        if(lastvisit == undefined){
             document.getElementById('visits').innerText = "0";
             lastvisit = Date.now();
         }
