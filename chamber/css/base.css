@@ -262,6 +262,13 @@ footer{
     color: #FFD700;
     border: 2px solid #1a4173;
 }
+#demosection{
+    max-width: 85%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Barlow Condensed", Helvetica, sans-serif;
+}
 
 /*----------- JOIN PRIMARY CSS --------------*/
 
