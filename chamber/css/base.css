@@ -269,6 +269,18 @@ footer{
     text-align: center;
     font-family: "Barlow Condensed", Helvetica, sans-serif;
 }
+#demosection p,ol{
+    margin: 0 60px 20px 60px;
+    font-size: 20px;
+}
+#demosection ol{
+    display: inline-block;
+    text-align: left;
+}
+#demosection li{
+    padding-bottom: 10px;
+}
+
 
 /*----------- JOIN PRIMARY CSS --------------*/
 
