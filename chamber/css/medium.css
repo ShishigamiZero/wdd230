@@ -71,5 +71,8 @@
         flex-direction: column;
         row-gap: 10px;
     }
+    #discheadline{
+        grid-column: 1 / 3;
+    }
 }
 

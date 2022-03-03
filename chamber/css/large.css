@@ -104,7 +104,7 @@ footer img{
     margin-left: auto;
     max-width: 90%;
     grid-template-columns: 60% 40%;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     column-gap: 20px;
 }
 .discdesc{
@@ -128,5 +128,8 @@ footer img{
 
 #memlev{
     grid-column: 1 / 2;
+}
+#discheadline{
+    grid-column: 1 / 3;
 }
 }
