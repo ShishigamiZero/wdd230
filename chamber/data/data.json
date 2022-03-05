@@ -46,7 +46,7 @@
         "businesstype": "Bar and Restaurant",
         "yearopened": "1992",
         "founder": "Captain Horatio McCallister",
-        "imageurl": 
+        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/fryingdutchman.jpg"
       },
       {
         "name": "The Leftorium",
@@ -58,7 +58,7 @@
         "businesstype": "Retail Store",
         "yearopened": "1991",
         "founder": "Ned Flanders",
-        "imageurl": 
+        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/leftorium.jpg"
       },
       {
         "name": "I Can't Believe It's a Law Firm!",
@@ -70,7 +70,7 @@
         "businesstype": "Law Firm",
         "yearopened": "1991",
         "founder": "Lionel Hutz",
-        "imageurl": 
+        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/hutzlaw.jpg"
       },
       {
         "name": "Kwik-E-Mart",
@@ -82,7 +82,7 @@
         "businesstype": "Convenience Store",
         "yearopened": "1990",
         "founder": "Apu Nahasapeemapetilon",
-        "imageurl": 
+        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/kwikemart.jpg"
       },
       {
         "name": "Krusty Burger",
@@ -94,7 +94,7 @@
         "businesstype": "Fast Food Restaurant",
         "yearopened": "1991",
         "founder": "Herschel Krustofsky",
-        "imageurl": 
+        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/krustyburger.jpg"
       },
       {
         "name": "King Toot's Music Store",
@@ -106,7 +106,7 @@
         "businesstype": "Music Instrument Store",
         "yearopened": "1991",
         "founder": "Jer Toot",
-        "imageurl": 
+        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/kingtoots.jpg"
       },
       {
         "name": "Hopping Mad Collection Agency",
@@ -118,7 +118,7 @@
         "businesstype": "Collection Agency",
         "yearopened": "1995",
         "founder": "Bruno Drundridge",
-        "imageurl": 
+        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/hoppingmad.jpg"
       },
       {
         "name": "All Creatures Great and Cheap",
@@ -130,7 +130,7 @@
         "businesstype": "Pet Store",
         "yearopened": "1991",
         "founder": "Fat Tony",
-        "imageurl": 
+        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/allcreatures.jpg"
       },
       {
         "name": "IT BLOWS: The Air Conditioner Store",
@@ -142,7 +142,7 @@
         "businesstype": "Air Conditioning Store",
         "yearopened": "1997",
         "founder": "Hank Scorpio",
-        "imageurl": 
+        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/itblows.jpg"
       },
       {
         "name": "The Vast Waistband",
@@ -154,7 +154,7 @@
         "businesstype": "Clothing Store",
         "yearopened": "1995",
         "founder": "Jay Sherman",
-        "imageurl": 
+        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/vastwaistband.jpg"
       }
     ]
 }
