@@ -1,0 +1,160 @@
+{
+    "directory": [
+      {
+        "name": "Powell Automotive",
+        "streetaddress": "10000 1st Street",
+        "city": "Treasure Valley",
+        "state": "Idaho",
+        "zipcode": 55555,
+        "website": "https://www.powellauto.com",
+        "businesstype": "Car Dealership",
+        "yearopened": "1991",
+        "founder": "Herbert Powell",
+        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/powellautotranslow.webp"
+      },
+      {
+        "name": "Mr. Plow Snow Removal",
+        "streetaddress": "742 Evergreen Terrace",
+        "city": "Treasure Valley",
+        "state": "Idaho",
+        "zipcode": 55555,
+        "website": "https://www.compuglobalhypermeganet.com",
+        "businesstype": "Snow Plowing and Removal",
+        "yearopened": "1992",
+        "founder": "Homer Simpson",
+        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/mrplowtranslow.webp"
+      },
+      {
+        "name": "Moe's Tavern",
+        "streetaddress": "10005 1st Street",
+        "city": "Treasure Valley",
+        "state": "Idaho",
+        "zipcode": 55555,
+        "website": "https://www.moestavern.com",
+        "businesstype": "Bar and Restaurant",
+        "yearopened": "1989",
+        "founder": "Moe Szyslak",
+        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/moestaverntranslow.webp"
+      },
+      {
+        "name": "The Frying Dutchman",
+        "streetaddress": "10010 1st Street",
+        "city": "Treasure Valley",
+        "state": "Idaho",
+        "zipcode": 55555,
+        "website": "https://www.captsfryingdutchman.com",
+        "businesstype": "Bar and Restaurant",
+        "yearopened": "1992",
+        "founder": "Captain Horatio McCallister",
+        "imageurl": 
+      },
+      {
+        "name": "The Leftorium",
+        "streetaddress": "10015 1st Street",
+        "city": "Treasure Valley",
+        "state": "Idaho",
+        "zipcode": 55555,
+        "website": "https://www.leftorium.com",
+        "businesstype": "Retail Store",
+        "yearopened": "1991",
+        "founder": "Ned Flanders",
+        "imageurl": 
+      },
+      {
+        "name": "I Can't Believe It's a Law Firm!",
+        "streetaddress": "10020 1st Street",
+        "city": "Treasure Valley",
+        "state": "Idaho",
+        "zipcode": 55555,
+        "website": "https://www.lionelhutzlaw.com",
+        "businesstype": "Law Firm",
+        "yearopened": "1991",
+        "founder": "Lionel Hutz",
+        "imageurl": 
+      },
+      {
+        "name": "Kwik-E-Mart",
+        "streetaddress": "10025 1st Street",
+        "city": "Treasure Valley",
+        "state": "Idaho",
+        "zipcode": 55555,
+        "website": "https://www.kwik-e-mart.com",
+        "businesstype": "Convenience Store",
+        "yearopened": "1990",
+        "founder": "Apu Nahasapeemapetilon",
+        "imageurl": 
+      },
+      {
+        "name": "Krusty Burger",
+        "streetaddress": "10030 1st Street",
+        "city": "Treasure Valley",
+        "state": "Idaho",
+        "zipcode": 55555,
+        "website": "https://www.krustyburger.com",
+        "businesstype": "Fast Food Restaurant",
+        "yearopened": "1991",
+        "founder": "Herschel Krustofsky",
+        "imageurl": 
+      },
+      {
+        "name": "King Toot's Music Store",
+        "streetaddress": "10006 1st Street",
+        "city": "Treasure Valley",
+        "state": "Idaho",
+        "zipcode": 55555,
+        "website": "https://www.kingtoots.com",
+        "businesstype": "Music Instrument Store",
+        "yearopened": "1991",
+        "founder": "Jer Toot",
+        "imageurl": 
+      },
+      {
+        "name": "Hopping Mad Collection Agency",
+        "streetaddress": "10 Sheepdip Ct. Sydney, N.S.W 2000 Australia",
+        "city": "Treasure Valley",
+        "state": "Idaho",
+        "zipcode": 55555,
+        "website": "https://www.hoppingmadca.au",
+        "businesstype": "Collection Agency",
+        "yearopened": "1995",
+        "founder": "Bruno Drundridge",
+        "imageurl": 
+      },
+      {
+        "name": "All Creatures Great and Cheap",
+        "streetaddress": "10035 1st Street",
+        "city": "Treasure Valley",
+        "state": "Idaho",
+        "zipcode": 55555,
+        "website": "https://www.allcreaturespets.com",
+        "businesstype": "Pet Store",
+        "yearopened": "1991",
+        "founder": "Fat Tony",
+        "imageurl": 
+      },
+      {
+        "name": "IT BLOWS: The Air Conditioner Store",
+        "streetaddress": " 20000 Walnut Street",
+        "city": "Treasure Valley",
+        "state": "Idaho",
+        "zipcode": 55555,
+        "website": "https://www.itblowsac.com",
+        "businesstype": "Air Conditioning Store",
+        "yearopened": "1997",
+        "founder": "Hank Scorpio",
+        "imageurl": 
+      },
+      {
+        "name": "The Vast Waistband",
+        "streetaddress": "10040 1st Street",
+        "city": "Treasure Valley",
+        "state": "Idaho",
+        "zipcode": 55555,
+        "website": "https://www.vastwaistband.com",
+        "businesstype": "Clothing Store",
+        "yearopened": "1995",
+        "founder": "Jay Sherman",
+        "imageurl": 
+      }
+    ]
+}
