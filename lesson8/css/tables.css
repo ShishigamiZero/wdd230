@@ -33,10 +33,11 @@ tbody tr:nth-child(4) td:nth-child(3) {
     background-color: #887403;
     color: white;
 }
-  
+
 tbody tr:nth-child(5) td:nth-child(1) {
     font-style: italic;
 }
+
 table, caption, th, tr, td {
   border: 1px solid #555;
   border-collapse: collapse;
