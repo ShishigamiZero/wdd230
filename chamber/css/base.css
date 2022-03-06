@@ -429,7 +429,8 @@ form label.sbs {
     margin-left: auto;
     margin-right: auto;
     max-width: 200px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #000000;
 }
 .cards section{
     font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
@@ -438,7 +439,28 @@ form label.sbs {
     background-color: #999;
     border: 2px solid #000000;
     border-radius: 4px;
+    margin-top: 10px;
 }
 .cards section:hover{
     background-color: #FFF;
+}
+
+#switchview{
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#cardview span:nth-child(1) {
+    display:block;
+}
+#listview span:nth-child(2) {
+    display:inline;
+}
+
+#cardview.open span:nth-child(1) {
+    display:inline;
+}
+#listview.open span:nth-child(2) {
+    display:block;
 }
