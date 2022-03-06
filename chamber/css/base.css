@@ -474,7 +474,15 @@ form label.sbs {
     font-size: 20px;
     font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
 }
-.listview section p1, p2, p3{
+.listview section p1{
+    font-size: 16px;
+    font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+}
+.listview section p2{
+    font-size: 16px;
+    font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+}
+.listview section p3{
     font-size: 16px;
     font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
 }
@@ -488,8 +496,12 @@ form label.sbs {
 #cardview span:nth-child(1) {
     display:block;
 }
-#listview span:nth-child(2) {
-    display:inline;
+#listview span:nth-child(odd) {
+    background-color: #fff;
+}
+
+#listview span:nth-child(even) {
+    background-color: #cbccc7;
 }
 
 #cardview.open span:nth-child(1) {
