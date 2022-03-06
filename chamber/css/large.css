@@ -138,7 +138,7 @@ footer img{
 }
 .cards{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
 }
 #memlev{
     padding: 0.5rem 2rem 2%;
