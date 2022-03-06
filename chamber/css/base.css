@@ -459,7 +459,13 @@ form label.sbs {
     background-color: #FFF;
 }
 
-.listview img, section p4,p5,p6{
+.listview img, section p4{
+    display: none;
+}
+.listview img, section p5{
+    display: none;
+}
+.listview img, section p6{
     display: none;
 }
 .listview section h2{
@@ -493,7 +499,7 @@ form label.sbs {
     padding-bottom: 20px;
 }
 
-#cardview span:nth-child(1) {
+/*#cardview span:nth-child(1) {
     display:block;
 }
 #listview span:nth-child(odd) {
@@ -509,4 +515,4 @@ form label.sbs {
 }
 #listview.open span:nth-child(2) {
     display:block;
-}
+}*/
