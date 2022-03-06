@@ -1,6 +1,6 @@
 function cardView(){
-	document.getElementById('cardview').classList.toggle('open');
-	document.getElementById('listview').classList.toggle('open');
+	document.getElementById('cardview').classList.toggle('show');
+	document.getElementById('listview').classList.toggle('show');
     console.log("working");
 }
 

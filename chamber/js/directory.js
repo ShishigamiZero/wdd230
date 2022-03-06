@@ -21,13 +21,11 @@ fetch(requestURL)
   
     // Change the textContent property of the h2 element to contain the prophet's full name
     h2.textContent = `${directory.name}`;
-    p.innerHTML = `<strong>Address:</strong> ${directory.streetaddress} <br/>
-    <strong>City:</strong> ${directory.city} <br/>
-    <strong>State:</strong> ${directory.state} <br/>
-    <strong>Zip Code:</strong> ${directory.zipcode} <br/>
-    <strong>Website:</strong> ${directory.website} <br/>
-    <strong>Type:</strong> ${directory.businesstype} <br/>
-    <strong>Year Opened:</strong> ${directory.yearopened} <br/>
+    p.innerHTML = `${directory.streetaddress} <br/>
+    ${directory.city}, ${directory.state} ${directory.zipcode} <br/>
+    ${directory.website} <br/>
+    <strong>Type: </strong>${directory.businesstype} <br/>
+    <strong>Opened:</strong> ${directory.yearopened} <br/>
     <strong>Founder:</strong> ${directory.founder} <br/>`;
   
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
@@ -36,9 +34,10 @@ fetch(requestURL)
     portrait.setAttribute('loading', 'lazy');
   
     // Add/append the section(card) with the h2 element
+    card.appendChild(portrait);
     card.appendChild(h2);
     card.appendChild(p);
-    card.appendChild(portrait);
+
   
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector("div.cards").appendChild(card);
