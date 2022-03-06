@@ -440,13 +440,13 @@ form label.sbs {
     font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 20px;
-    background-color: #999;
+    background-color: #cbccc7;
     border: 2px solid #000000;
     border-radius: 4px;
     margin-top: 10px;
     padding: 0 10px 10px 10px;
 }
-.cardview>section p4{
+.cardview section p4{
     display: block;
 }
 .cardview section p5{
@@ -458,7 +458,7 @@ form label.sbs {
 .cardview section:hover{
     background-color: #FFF;
 }
-
+/*********** LIST VIEW **************/
 .listview img, section p4{
     display: none;
 }
@@ -472,8 +472,6 @@ form label.sbs {
     display: block;
 }
 .listview section{
-    display: grid;
-    grid-template-columns: 1fr;
     padding: 0.5rem;
 }
 .listview h2{
@@ -502,17 +500,21 @@ form label.sbs {
 /*#cardview span:nth-child(1) {
     display:block;
 }
-#listview span:nth-child(odd) {
+#listview span:nth-child(2) {
+    display:none;
+}
+#listview span:nth-child(1n) {
     background-color: #fff;
 }
 
-#listview span:nth-child(even) {
+#listview span:nth-child(2n) {
     background-color: #cbccc7;
 }
 
 #cardview.open span:nth-child(1) {
-    display:inline;
+    display:none;
 }
 #listview.open span:nth-child(2) {
-    display:block;
+    display:grid;
+    grid-template-rows: 1fr;
 }*/
