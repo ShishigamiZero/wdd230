@@ -390,7 +390,7 @@ form label.sbs {
 }
 
 #asterisk{
-    color: red;
+    color: rgba(255, 0, 0, 0.192);
     margin: 0;
 }
 
