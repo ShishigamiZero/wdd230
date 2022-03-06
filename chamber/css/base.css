@@ -2,7 +2,7 @@
 
 .chamberbody{
     margin:auto;
-    max-width: 75%;
+    max-width: 90%;
 }
 .chambertitle{
     margin-top: 25px;
@@ -298,10 +298,10 @@ form fieldset{
     font-family: "Roboto Condensed", Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 400;
-    margin: 2rem 1rem;
+    margin: 2rem 0.2rem;
     border: 1px solid #1a4173;
     border-radius: 10px;
-    padding: .5rem 2rem 2%;
+    padding: .5rem 0.5rem 2%;
 }
 
 form legend{
@@ -365,7 +365,7 @@ form label.sbs {
     font-family: "Barlow Condensed", Helvetica, sans-serif;
     border: 1px solid #1a4173;
     border-radius: 10px;
-    padding: 0.5rem 2rem 2%;
+    padding: 0.5rem 0.5rem 2%;
     margin-bottom: 3rem;
 }
 

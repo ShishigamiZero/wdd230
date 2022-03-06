@@ -16,6 +16,10 @@
     nav button{
         display: none;
     }    */
+    .chamberbody{
+        margin:auto;
+        max-width: 80%;
+    }
     .chamberflex{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -77,6 +81,9 @@
     .cards{
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+    #memlev{
+        padding: 0.5rem 1rem 2%;
     }
 }
 

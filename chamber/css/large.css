@@ -35,6 +35,10 @@
     row-gap: 10px;
     column-gap: 10px;
 }
+.chamberbody{
+    margin:auto;
+    max-width: 75%;
+}
 #event{
     grid-column: 1 / 2;
     grid-row: 1 / 2;
@@ -135,5 +139,12 @@ footer img{
 .cards{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+#memlev{
+    padding: 0.5rem 2rem 2%;
+}
+form fieldset{
+    margin: 2rem 1rem;
+    padding: .5rem 2rem 2%;
 }
 }
