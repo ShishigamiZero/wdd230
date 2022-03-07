@@ -463,6 +463,9 @@ form label.sbs {
     display: none;
 }
 .listview section p2{
+    font-weight: 600;
+}
+.listview section p2{
     display: none;
 }
 .listview img, section p4{
