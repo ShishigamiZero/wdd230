@@ -459,6 +459,12 @@ form label.sbs {
     background-color: #FFF;
 }
 /*********** LIST VIEW **************/
+.listview section p1{
+    display: none;
+}
+.listview section p2{
+    display: none;
+}
 .listview img, section p4{
     display: none;
 }

@@ -149,4 +149,7 @@ form fieldset{
     padding: .5rem 2rem 2%;
 }
 
+.listview section p1{
+    display: block;
+}
 }
