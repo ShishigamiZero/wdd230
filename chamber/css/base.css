@@ -443,6 +443,9 @@ form label.sbs {
     margin-top: 10px;
     padding: 0 10px 10px 10px;
 }
+.cardview section p2{
+    font-weight: 600;
+}
 .cardview section p4{
     display: block;
 }
@@ -516,3 +519,13 @@ form label.sbs {
 #cardbutton{
     background-color: #FFF;
 }
+
+#cardbutton:hover, #listbutton:hover{
+    /* border: 2px solid #498BA6; */
+    background-color: #498BA6;
+    color:#FFF;
+}
+#cardbutton:active, #listbutton:active{
+    border: 2px solid #498BA6;
+}
+
