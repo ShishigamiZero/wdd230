@@ -136,9 +136,10 @@ footer img{
 #discheadline{
     grid-column: 1 / 3;
 }
-.cards{
+.cardview{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 32% 32% 32%;
+    justify-content: center;
 }
 #memlev{
     padding: 0.5rem 2rem 2%;
@@ -147,4 +148,5 @@ form fieldset{
     margin: 2rem 1rem;
     padding: .5rem 2rem 2%;
 }
+
 }

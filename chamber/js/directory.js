@@ -26,8 +26,8 @@ fetch(requestURL)
   
     // Change the textContent property of the h2 element to contain the prophet's full name
     h2.textContent = directory.name;
-    p1.innerHTML = `${directory.streetaddress} <br>`;
-    p2.innerHTML = `${directory.city}, ${directory.state} ${directory.zipcode} <br>`;
+    p1.innerHTML = `${directory.streetaddress} ${directory.city}, ${directory.state} ${directory.zipcode}<br>`;
+    p2.innerHTML = `${directory.phone} <br>`;
     p3.innerHTML = `${directory.website} <br>`;
     p4.innerHTML = `<strong>Type: </strong>${directory.businesstype} <br>`;
     p5.innerHTML = `<strong>Opened:</strong> ${directory.yearopened} <br>`;

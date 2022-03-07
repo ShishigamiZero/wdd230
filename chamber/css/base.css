@@ -423,9 +423,6 @@ form label.sbs {
     grid-gap:10px;
     text-align: center;
     margin-bottom: 20px;
-    max-width: 95%;
-    margin-left: auto;
-    margin-right: auto;
 }
 .cardview img{
     display: block;
@@ -473,6 +470,7 @@ form label.sbs {
 }
 .listview section{
     padding: 0.5rem;
+    text-align:start;
 }
 .listview h2{
     font-size: 20px;
@@ -497,24 +495,24 @@ form label.sbs {
     padding-bottom: 20px;
 }
 
-/*#cardview span:nth-child(1) {
-    display:block;
-}
-#listview span:nth-child(2) {
-    display:none;
-}
-#listview span:nth-child(1n) {
-    background-color: #fff;
+.listview{
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
-#listview span:nth-child(2n) {
+.listview section{
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.listview section:nth-of-type(even){
     background-color: #cbccc7;
 }
-
-#cardview.open span:nth-child(1) {
-    display:none;
+#listbutton{
+    background-color: #cbccc7;
 }
-#listview.open span:nth-child(2) {
-    display:grid;
-    grid-template-rows: 1fr;
-}*/
+#cardbutton{
+    background-color: #FFF;
+}
