@@ -152,4 +152,17 @@ form fieldset{
 .listview section p1{
     display: block;
 }
+
+.listview section p5{
+    display: block;
+    font-size: 16px;
+    font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+}
+
+.listview section{
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 }

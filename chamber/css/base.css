@@ -459,9 +459,7 @@ form label.sbs {
     background-color: #FFF;
 }
 /*********** LIST VIEW **************/
-.listview section p1{
-    display: none;
-}
+
 .listview section p2{
     font-weight: 600;
 }
@@ -507,17 +505,12 @@ form label.sbs {
     padding-bottom: 20px;
 }
 
-.listview{
+.listview section{
     display: grid;
     grid-template-columns: 1fr;
+    text-align: center;
 }
 
-.listview section{
-    padding: 0.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
 .listview section:nth-of-type(even){
     background-color: #cbccc7;
