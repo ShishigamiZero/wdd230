@@ -186,7 +186,6 @@ footer{
     position: absolute;
     right: 10%;
     bottom: 10%;
-    text-decoration: none;
     font-size: 20px;
 }
 #lardlogo{
@@ -203,26 +202,23 @@ footer{
     color: #f8ffdd;
     padding: 10px 30px 10px 30px;
     position: absolute;
-    text-decoration: none;
     font-size: 20px;
 }
-#joinus a:visited{
+#joinus a:visited, #herojoin a:visited{
     color:#cbccc7;
-    text-decoration: none;
 }
-#herojoin a:visited{
-    color:#cbccc7;
+
+#joinus a:link, #herojoin a:link{
     text-decoration: none;
 }
 
 /*----------- CHAMBER JOIN US BUTTON AND BANNER CSS --------------*/
 
-#herojoin:hover{
+#herojoin:hover, #joinus:hover{
     background-color: #498ba6;
+    text-decoration: underline;
 }
-#joinus:hover{
-    background-color: #498ba6;
-}
+
 #hamburgerBtn span:nth-child(1) {display:block;}
 #hamburgerBtn span:nth-child(2) {display:none;}
 
