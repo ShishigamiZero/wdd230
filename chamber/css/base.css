@@ -141,6 +141,12 @@ q:before,
 q:after {
 	content: "";
 }
+#weathcred a:visited{
+    color: #cbccc7;
+}
+#weathcred a{
+    color: #FFF;
+}
 
 /*----------- CHAMBER FOOTER CSS --------------*/
 
