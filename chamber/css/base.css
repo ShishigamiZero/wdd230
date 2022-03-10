@@ -175,6 +175,7 @@ footer{
     top: 5%;
     color: #f8ffdd;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 26px;
 }
 #herojoin{
     font-family: "Barlow Condensed", sans-serif, Helvetica;
@@ -185,6 +186,8 @@ footer{
     position: absolute;
     right: 10%;
     bottom: 10%;
+    text-decoration: none;
+    font-size: 20px;
 }
 #lardlogo{
     width: 150px;
@@ -200,6 +203,16 @@ footer{
     color: #f8ffdd;
     padding: 10px 30px 10px 30px;
     position: absolute;
+    text-decoration: none;
+    font-size: 20px;
+}
+#joinus a:visited{
+    color:#cbccc7;
+    text-decoration: none;
+}
+#herojoin a:visited{
+    color:#cbccc7;
+    text-decoration: none;
 }
 
 /*----------- CHAMBER JOIN US BUTTON AND BANNER CSS --------------*/

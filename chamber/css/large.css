@@ -62,14 +62,19 @@
 #chambspot1{
     grid-column: 4 / 5;
     grid-row: 1 / 2;
+    height: 31%;
+    margin-bottom: 20px;
 }
 #chambspot2{
     grid-column: 4 / 5;
     grid-row: 2 / 3;
+    height: 31%;
+    margin-bottom: 20px;
 }
 #chambspot3{
     grid-column: 4 / 5;
     grid-row: 3 / 4;
+    height: 31%;
 }
 .spotdiv{
     display: block;
