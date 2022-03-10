@@ -15,10 +15,6 @@ fetch(apiURL)
     document.querySelector('figcaption').textContent = desc;
   });
 
-
-
-
-
 /*    
 {
     "id": 5861897,

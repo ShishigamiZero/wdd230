@@ -93,20 +93,12 @@
                     </section>
                 </div>
                 <section class="contentbox" id="weather">
-                    <h3>Weather</h3>
-                    <picture>
-                        <source media="(min-width: 37.6em) and (max-width: 59.9em)" srcset="./images/weathertransmed.webp">
-                        <source media="(min-width: 60em)" srcset="./images/weathertranshigh.webp">
-                        <img class="spotimg" src="./images/weathertranslow.webp" alt="Weather Icon" />  
-                    </picture>
-                    <p>This is a Placeholder that will show what the local weather is like today!</p>   
-                    <p>
-                        Temperature: 57&deg;F<br>
-                        Wind Speed: 15mph<br>
-                    </p>
-                    <p>
-                        Wind Chill: <span id="windchill"></span>&deg;F
-                    </p>
+                    <h3 id="weathercard">Treasure Valley Weather</h3>
+                    </p><figure><img src="" alt="" id="weathericon" />  <figcaption id="weathercap"></figcaption></figure>
+                    <p><q>Temperature: </q><span id="temp"></span>&deg;F<br></p>
+                    <p><q>Wind Speed: </q><span id="speed"></span> mph<br></p>
+                    <p><q>Wind Chill: </q><span id="wchill"></span></p>
+                    <p><q>Humidity: </q><span id="humid"></span>%</p>
                 </section>
                 <section class="contentbox" id="event">
                     <h3>Event</h3>
