@@ -9,7 +9,7 @@ fetch(requestURL)
     console.table(jsonObject);  // temporary checking for valid response and data parsing
       
     const directories = jsonObject["directory"];
-    console.log(directories.forEach(displayDirectories));
+    directories.forEach(displayDirectories);
   });
 
   function displayDirectories(directory) {
@@ -42,43 +42,42 @@ fetch(requestURL)
     
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector("div.spots").appendChild(spot);
-    console.log(directory);
  
  let dayOfWeek;
 dayOfWeek = now.getDay();
 if (dayOfWeek == 0) {
   goldview = directory.memberlevel("gold1");
-  silverview = directory.id("silver1");
-  bronzeview = directory.id("bronze1")
+  silverview = directory.memberlevel("silver1");
+  bronzeview = directory.memberlevel("bronze1");
 } else if (dayOfWeek == 1) {
     goldview = directory.memberlevel("gold1");
-    silverview = directory.id("silver1");
-    bronzeview = directory.id("bronze2")
+    silverview = directory.memberlevel("silver1");
+    bronzeview = directory.memberlevel("bronze2");
 } else if (dayOfWeek == 2) {
-    goldview = directory.id("gold2");
-    silverview = directory.id("silver2");
-    bronzeview = directory.id("bronze3")
+    goldview = directory.memberlevel("gold2");
+    silverview = directory.memberlevel("silver2");
+    bronzeview = directory.memberlevel("bronze3");
 } else if (dayOfWeek == 3) {
-    goldview = directory.id("gold2");
-    silverview = directory.id("silver2");
-    bronzeview = directory.id("bronze4")
+    goldview = directory.memberlevel("gold2");
+    silverview = directory.memberlevel("silver2");
+    bronzeview = directory.memberlevel("bronze4");
 } else if (dayOfWeek == 4) {
-    goldview = directory.id("gold3");
-    silverview = directory.id("silver3");
-    bronzeview = directory.id("bronze5")
+    goldview = directory.memberlevel("gold3");
+    silverview = directory.memberlevel("silver3");
+    bronzeview = directory.memberlevel("bronze5");
 } else if (dayOfWeek == 5) {
-    goldview = directory.id("gold3");
-    silverview = directory.id("silver3");
-    bronzeview = directory.id("bronze1")
+    goldview = directory.memberlevel("gold3");
+    silverview = directory.memberlevel("silver3");
+    bronzeview = directory.memberlevel("bronze1");
 } else if (dayOfWeek == 6) {
-    goldview = directory.id("gold4");
-    silverview = directory.id("silver4");
-    bronzeview = directory.id("bronze2")
+    goldview = directory.memberlevel("gold4");
+    silverview = directory.memberlevel("silver4");
+    bronzeview = directory.memberlevel("bronze2");
 } else {
   newsheader = 'We apologize, there was an unknown error.'
   }
 
-document.querySelector('.goldview').textContent = goldview;
+document.querySelector(".goldview").textContent = goldview;
 document.querySelector(".silverview").textContent = silverview;
 document.querySelector(".bronzeview").textContent = bronzeview;    
   }

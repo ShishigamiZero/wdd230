@@ -111,7 +111,7 @@ footer img{
     display: grid;
     margin-right: auto;
     margin-left: auto;
-    max-width: 90%;
+    max-width: 80%;
     grid-template-columns: 60% 40%;
     grid-template-rows: 0.1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     column-gap: 20px;
