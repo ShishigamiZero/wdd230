@@ -111,7 +111,7 @@ header p{
     padding-left: 10px;
     padding-right: 10px;
 }
-#chambspot3{
+.chambspot3{
     display: none;
 }
 #join{
@@ -574,6 +574,7 @@ form label.sbs {
 .spots img{
     max-width: 150px;
     padding-bottom: 15px;
+    margin: 10px;
 }
 
 .spots{
