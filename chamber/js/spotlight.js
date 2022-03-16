@@ -108,6 +108,7 @@ fetch(requestURL)
     let p1 = document.createElement("p1");
     let p2 = document.createElement("p2");
     let p3 = document.createElement("p3");
+    let p4 = document.createElement("p4");
     let portrait = document.createElement("img");
   
     // Change the textContent property of the h2 element to contain the business's full name
@@ -115,6 +116,7 @@ fetch(requestURL)
     p1.innerHTML = `${directory.website} <br>`;
     p2.innerHTML = `${directory.phone} <br>`;
     p3.innerHTML = `<strong>Founder:</strong> ${directory.founder} <br>`
+    p4.innerHTML = `<strong>${directory.motto}<strong>`
 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', directory.imageurl);
@@ -128,6 +130,7 @@ fetch(requestURL)
     // Add/append the section(card) with the h2 element
     spot.appendChild(h2);
     spot.appendChild(portrait);
+    spot.appendChild(p4);
     spot.appendChild(p1);
     spot.appendChild(p2);
     spot.appendChild(p3);

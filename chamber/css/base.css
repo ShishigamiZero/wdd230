@@ -111,9 +111,10 @@ header p{
     padding-left: 10px;
     padding-right: 10px;
 }
-.chambspot3{
+/* .spots section bronzeview{
     display: none;
-}
+} */
+
 #join{
     display: none;
 }
@@ -574,15 +575,17 @@ form label.sbs {
 .spots img{
     max-width: 150px;
     padding-bottom: 15px;
-    margin: 10px;
+    margin: 20px;
 }
 
 .spots{
     text-align: center;
     font-family: "Roboto Condensed", sans-serif, Helvetica;
+    margin-bottom: 20px;
+    height: 100%;
 }
 
 .spots p1{
     border-top: 2px solid black;
-    padding-top: 5px;
+    padding-top: 10px;
 }

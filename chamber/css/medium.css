@@ -27,9 +27,9 @@
     row-gap: 10px;
     column-gap: 10px;
     }
-    .chambspot3{
+    /* .spots section bronzeview{
         display: none;
-    }
+    } */
     #hero{
         grid-column: 1 / 4;
         grid-row: 1 / 2;
