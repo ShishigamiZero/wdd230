@@ -116,7 +116,7 @@ fetch(requestURL)
     p1.innerHTML = `${directory.website} <br>`;
     p2.innerHTML = `${directory.phone} <br>`;
     p3.innerHTML = `<strong>Founder:</strong> ${directory.founder} <br>`
-    p4.innerHTML = `<strong>${directory.motto}<strong>`
+    p4.innerHTML = `<strong>"${directory.motto}"<strong>`
 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', directory.imageurl);

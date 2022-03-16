@@ -575,7 +575,7 @@ form label.sbs {
 .spots img{
     max-width: 150px;
     padding-bottom: 15px;
-    margin: 20px;
+    margin: 10px;
 }
 
 .spots{
@@ -588,4 +588,11 @@ form label.sbs {
 .spots p1{
     border-top: 2px solid black;
     padding-top: 10px;
+}
+
+.spots p4{
+    display: block;
+    margin: 0px 10px 10px 10px;
+    padding-bottom: 20px;
+    text-align: center;
 }
