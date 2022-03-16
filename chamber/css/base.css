@@ -76,6 +76,7 @@ nav ul.open{
     position: relative;
 }
 .contentbox h3{
+    padding-top: 20px;
     margin: 10px;
     font-family: "Barlow Condensed", sans-serif, Helvetica;
     font-weight: 600;
