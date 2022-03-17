@@ -112,9 +112,9 @@ header p{
     padding-left: 10px;
     padding-right: 10px;
 }
-/* .spots section bronzeview{
+.spotdiv .contentbox .chamberspot3{
     display: none;
-} */
+}
 
 #join{
     display: none;
@@ -258,7 +258,7 @@ footer{
     flex-direction: column;
     row-gap: 10px;
 }
-#discheadline, #joinheadline{
+#discheadline, #joinheadline, #contactheadline{
     font-family: "Roboto Condensed", Helvetica, sans-serif;
     font-weight: 700;
     font-size: 40px;
@@ -596,4 +596,16 @@ form label.sbs {
     margin: 0px 10px 10px 10px;
     padding-bottom: 20px;
     text-align: center;
+}
+/*********** CONTACT US PAGE ************/
+#contactgrid{
+    grid-template-columns: 49% 49%;
+    grid-column-gap: 10px;
+    display: grid;
+}
+#inquiry{
+    width: 90%;
+    max-width: 40rem;
+    background-color: #DDDDDD;
+    padding: 0.75rem;
 }

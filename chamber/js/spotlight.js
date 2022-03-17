@@ -7,9 +7,9 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
-    let goldview;
-    let silverview;
-    let bronzeview;
+    let goldview = document.querySelector('.chamberspot1');
+    let silverview = document.querySelector('.chamberspot2');
+    let bronzeview = document.querySelector('.chamberspot3');
     let dayOfWeek = new Date().getDay();
     let directoryArray = [];
 
