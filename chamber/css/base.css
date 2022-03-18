@@ -112,7 +112,8 @@ header p{
     padding-left: 10px;
     padding-right: 10px;
 }
-.spotdiv .contentbox .chamberspot3{
+
+body > main > div > section:nth-child(3){
     display: none;
 }
 

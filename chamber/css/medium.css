@@ -27,9 +27,11 @@
     row-gap: 10px;
     column-gap: 10px;
     }
-    /* .spots section bronzeview{
+
+    body > main > div > section:nth-child(3){
         display: none;
-    } */
+    }
+    
     #hero{
         grid-column: 1 / 4;
         grid-row: 1 / 2;
@@ -87,6 +89,13 @@
     }
     .listview section p2{
         display: block;
+    }
+
+    .spotdiv section p3{
+        margin: 0px 20px 0px 20px;
+    }
+    .spotdiv section p4{
+        margin: 0px 20px 0px 20px;
     }
 }
 
