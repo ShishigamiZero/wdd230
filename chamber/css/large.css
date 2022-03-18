@@ -175,4 +175,8 @@ body > main > div > section:nth-child(3){
     display: block;
 }
 
+.listview section:nth-child(3){
+    display: flex;
+}
+
 }

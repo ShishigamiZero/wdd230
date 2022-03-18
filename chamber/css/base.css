@@ -117,6 +117,12 @@ body > main > div > section:nth-child(3){
     display: none;
 }
 
+.listview section:nth-child(3){
+    display: grid;
+}
+.cardview section:nth-child(3){
+    display: grid;
+}
 #join{
     display: none;
 }

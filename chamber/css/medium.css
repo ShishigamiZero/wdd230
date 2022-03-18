@@ -28,10 +28,17 @@
     column-gap: 10px;
     }
 
-    body > main > div > section:nth-child(3){
+    body > main > div >  section:nth-child(3){
         display: none;
     }
     
+    .listview section:nth-child(3){
+        display: grid;
+    }
+    .cardview section:nth-child(3){
+        display: grid;
+    }
+
     #hero{
         grid-column: 1 / 4;
         grid-row: 1 / 2;
