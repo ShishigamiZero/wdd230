@@ -88,4 +88,9 @@
     .spotdiv section p4{
         margin: 0px 20px 0px 20px;
     }
+    #contactgrid{
+        grid-template-columns: 49% 49%;
+        grid-column-gap: 10px;
+        display: grid;
+    }
 }

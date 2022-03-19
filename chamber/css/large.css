@@ -178,5 +178,10 @@ body > main > div > section:nth-child(3){
 .listview section:nth-child(3){
     display: flex;
 }
+#contactgrid{
+    grid-template-columns: 49% 49%;
+    grid-column-gap: 10px;
+    display: grid;
+}
 
 }
