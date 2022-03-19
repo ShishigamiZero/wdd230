@@ -608,6 +608,7 @@ form label.sbs {
 #contactgrid{
     display: flex;
     flex-direction: column;
+    margin-top: -40px;
 }
 #inquiry{
     width: 90%;

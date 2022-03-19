@@ -3,7 +3,7 @@
         <head>
             <meta charset="UTF-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <meta name="description" content="This page is the Contact Us page for Treasure Valley Chamber of Commerce." />
+            <meta name="description" content="This page is the Join page for Treasure Valley Chamber of Commerce." />
             <meta name="author" content="Ian Finch" />
             <link rel="stylesheet" href="./css/normalize.css" />
             <link rel="stylesheet" href="./css/base.css" />
@@ -14,7 +14,7 @@
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-                <title>Treasure Valley Chamber of Commerce - Contact Us</title>
+                <title>Treasure Valley Chamber of Commerce Discover</title>
         </head>
         <body class="chamberbody">
             <header class="chambertitle">
@@ -25,7 +25,7 @@
                         <img class="tvlogo" src="./images/tvchambertranslow.webp" alt="Treasure Valley Chamber Logo" />
                      </picture> 
                     <p id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
-                    <h1>Treasure Valley Chamber of Commerce - Contact Us</h1>
+                    <h1>Treasure Valley Chamber of Commerce - Join</h1>
                 </div>
                 <div id="header2">
                     <nav>
@@ -44,43 +44,11 @@
                     <p class="header3 timestamp"><span id="date"></span></p>
             </header>
 
-            <main>
-                <h1 id="contactheadline">
-                    Need to Contact the Treasure Valley Chamber of Commerce?
+            <main id="thankspage">
+                <h1 id="joinheadline">
+                    Thank you!
                 </h1>
-                <section id="contactgrid">
-                <form method="get" action="contactthanks.html">
-                    <fieldset id="busform">
-                        <legend>
-                            Contact Information
-                        </legend>
-                            <h5 id="asterisk">Note: Asterisk * indicates a required field.</h5>
-                            <label class="top">First Name * <input type="text" name="fname" placeholder="Hank" required></label>
-                            <label class="top">Last Name * <input type="text" name="lname"  placeholder="Hill" required></label>                        
-                            <label class="top">Email * <input type="email" name="email" placeholder="someone@outlook.com" required></label>                            
-                            <label class="top">Cell Phone * <input type="tel" name="phone" placeholder="5555559876" required></label>
-                            <label class="top">Inquiry <textarea id="inquiry" name="inquiry" rows="4" cols="50" placeholder="Please enter your questions and comments here."></textarea></label>
-                            <p id="responsemethod">Preferred Response Method</p>
-                            <label class="sbs"><input type="radio" name="response" value="phone"> Phone Call</label>
-                            <label class="sbs"><input type="radio" name="response" value="email"> Email</label>
-                            <input type="hidden" name="date" id="current_date" required> 
-                    </fieldset>
-                    <div class="center">
-                    <input class="submitBtn" type="submit" value="Send Your Question!"> 
-                    </div>
-                    </form>
-
-                    <div id="contactinfo">
-                        <p id="contactpara">Would you rather contact us in person? The Chamber of Commerce is open for regular business hours from 8am to 5pm Monday through Friday. We are closed on holidays.</p>
-                        <section id="contactaddress">
-                            <p><strong>Treasure Valley Chamber of Commmerce</strong></p>
-                            <p>1004 Powerline Rd.</p>
-                            <p id="addressend">Treasure Valley, Idaho 83706</p>
-                            <p><strong>Email: </strong>tvchamber@gmail.com</p>
-                            <p><strong>Phone: </strong>(208) 555-5555</p> 
-                        </section>
-                    </div>
-                </section>
+                <p id="thank">Your question has been submitted. We will contact you as soon as possible with an answer!</p>
             </main>
             
         <footer>
@@ -112,6 +80,5 @@
         <script src="./js/dates.js"></script>
         <script src="./js/menu.js"></script>
         <script src="./js/banner.js"></script>
-        <script src="./js/hiddendate.js"></script>
     </body>
 </html>
