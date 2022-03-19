@@ -21,24 +21,24 @@ fetch(requestURL)
       (directory) => directory.memberlevel == 'gold1'
     );    
     silverview = directories.find(
-      (directory) => directory.memberlevel == 'silver1'
+      (directory) => directory.memberlevel == 'silver4'
     );
     bronzeview = directories.find(
       (directory) => directory.memberlevel == 'bronze1'
     );
   } else if (dayOfWeek == 1) {
     goldview = directories.find(
-      (directory) => directory.memberlevel == 'gold1'
+      (directory) => directory.memberlevel == 'gold2'
     );    
     silverview = directories.find(
-      (directory) => directory.memberlevel == 'silver1'
+      (directory) => directory.memberlevel == 'silver3'
     );
     bronzeview = directories.find(
       (directory) => directory.memberlevel == 'bronze2'
     );
   } else if (dayOfWeek == 2) {
     goldview = directories.find(
-      (directory) => directory.memberlevel == 'gold2'
+      (directory) => directory.memberlevel == 'gold3'
     );    
     silverview = directories.find(
       (directory) => directory.memberlevel == 'silver2'
@@ -48,27 +48,27 @@ fetch(requestURL)
     );
   } else if (dayOfWeek == 3) {
     goldview = directories.find(
-      (directory) => directory.memberlevel == 'gold2'
+      (directory) => directory.memberlevel == 'gold4'
     );    
     silverview = directories.find(
-      (directory) => directory.memberlevel == 'silver2'
+      (directory) => directory.memberlevel == 'silver1'
     );
     bronzeview = directories.find(
       (directory) => directory.memberlevel == 'bronze4'
     );
   } else if (dayOfWeek == 4) {
     goldview = directories.find(
-      (directory) => directory.memberlevel == 'gold3'
+      (directory) => directory.memberlevel == 'gold1'
     );    
     silverview = directories.find(
-      (directory) => directory.memberlevel == 'silver3'
+      (directory) => directory.memberlevel == 'silver4'
     );
     bronzeview = directories.find(
       (directory) => directory.memberlevel == 'bronze5'
     );
   } else if (dayOfWeek == 5) {
     goldview = directories.find(
-      (directory) => directory.memberlevel == 'gold3'
+      (directory) => directory.memberlevel == 'gold2'
     );    
     silverview = directories.find(
       (directory) => directory.memberlevel == 'silver3'
@@ -78,10 +78,10 @@ fetch(requestURL)
     );
   } else if (dayOfWeek == 6) {
     goldview = directories.find(
-      (directory) => directory.memberlevel == 'gold4'
+      (directory) => directory.memberlevel == 'gold3'
     );    
     silverview = directories.find(
-      (directory) => directory.memberlevel == 'silver4'
+      (directory) => directory.memberlevel == 'silver2'
     );
     bronzeview = directories.find(
       (directory) => directory.memberlevel == 'bronze2'
