@@ -61,6 +61,7 @@
         "motto": "Set Sail for the Frying Dutchman!"
       },
       {
+        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/leftorium.jpg",        
         "name": "The Leftorium",
         "streetaddress": "10015 1st Street",
         "city": "Treasure Valley",
@@ -71,11 +72,11 @@
         "businesstype": "Retail Store",
         "yearopened": "1991",
         "founder": "Ned Flanders",
-        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/leftorium.jpg",
         "memberlevel": "silver2",
         "motto": "Everything for the Left-Handed Man, Woman, and Child"
       },
       {
+        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/hutzlaw.JPG",        
         "name": "I Can't Believe It's a Law Firm!",
         "streetaddress": "10020 1st Street",
         "city": "Treasure Valley",
@@ -86,11 +87,11 @@
         "businesstype": "Law Firm",
         "yearopened": "1991",
         "founder": "Lionel Hutz",
-        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/hutzlaw.JPG",
         "memberlevel": "bronze2",
         "motto": "Works on Contingency? No, Money Down!"                
       },
       {
+        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/kwikemart.JPG",        
         "name": "Kwik-E-Mart",
         "streetaddress": "10025 1st Street",
         "city": "Treasure Valley",
@@ -101,11 +102,11 @@
         "businesstype": "Convenience Store",
         "yearopened": "1990",
         "founder": "Apu Nahasapeemapetilon",
-        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/kwikemart.JPG",
         "memberlevel": "gold3",
         "motto": "Thank You, Come Again!"                
       },
       {
+        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/krustyburger.JPG",        
         "name": "Krusty Burger",
         "streetaddress": "10030 1st Street",
         "city": "Treasure Valley",
@@ -116,11 +117,11 @@
         "businesstype": "Fast Food Restaurant",
         "yearopened": "1991",
         "founder": "Herschel Krustofsky",
-        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/krustyburger.JPG",
         "memberlevel": "silver3",
         "motto": "I Will Personally Spit Into Every Fiftieth Burger!"               
       },
       {
+        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/kingtoots.JPG",        
         "name": "King Toot's Music Store",
         "streetaddress": "10006 1st Street",
         "city": "Treasure Valley",
@@ -131,11 +132,11 @@
         "businesstype": "Music Instrument Store",
         "yearopened": "1991",
         "founder": "Jer Toot",
-        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/kingtoots.JPG",
         "memberlevel": "bronze3",
         "motto": "Like the Instruments the Pharaohs Keep in Their Tombs"                
       },
       {
+        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/hoppingmad.JPG",        
         "name": "Hopping Mad Collection Agency",
         "streetaddress": "10 Sheepdip Ct. Sydney, N.S.W 2000 Australia",
         "city": "Treasure Valley",
@@ -146,11 +147,11 @@
         "businesstype": "Collection Agency",
         "yearopened": "1995",
         "founder": "Bruno Drundridge",
-        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/hoppingmad.JPG",
         "memberlevel": "gold4",
         "motto": "900 Dollarydoos?!"                
       },
       {
+        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/allcreatures.JPG",
         "name": "All Creatures Great and Cheap",
         "streetaddress": "10035 1st Street",
         "city": "Treasure Valley",
@@ -161,11 +162,11 @@
         "businesstype": "Pet Store",
         "yearopened": "1991",
         "founder": "Fat Tony",
-        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/allcreatures.JPG",
         "memberlevel": "silver4",
         "motto": "Crying isn't Gonna Bring Him Back... Unless Your Tears Smell Like Dog Food"
       },
       {
+        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/itblows.JPG",        
         "name": "IT BLOWS: The Air Conditioner Store",
         "streetaddress": " 20000 Walnut Street",
         "city": "Treasure Valley",
@@ -176,11 +177,11 @@
         "businesstype": "Air Conditioning Store",
         "yearopened": "1997",
         "founder": "Hank Scorpio",
-        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/itblows.JPG",
         "memberlevel": "bronze4",
         "motto": "Mmmmm, Air Conditioning..."
       },
       {
+        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/vastwaistband.JPG",        
         "name": "The Vast Waistband",
         "streetaddress": "10040 1st Street",
         "city": "Treasure Valley",
@@ -191,7 +192,6 @@
         "businesstype": "Clothing Store",
         "yearopened": "1995",
         "founder": "Jay Sherman",
-        "imageurl": "https://shishigamizero.github.io/wdd230/chamber/images/vastwaistband.JPG",
         "memberlevel": "bronze5",
         "motto": "For the Husky Gentleman in All of Us"                
       }
