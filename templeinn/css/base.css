@@ -237,3 +237,18 @@ nav button{
 #contactthanks p, #resthanks p{
     font-size: 20px;
 }
+/************ ATTRIBUTIONS PAGE *************/
+#attheader{
+    text-align: center;
+    color: #FFF;
+}
+
+#attheader p{
+    font-size: 18px;
+}
+.attcontent{
+    background-color: white;
+    color: #000;
+    border: 5px solid #B78627;
+    border-radius: 12px;
+}
