@@ -159,7 +159,7 @@ p, ul, ol {
 }
 .footerlogo img{
     display: block;
-    margin-left: auto;
+    margin-left: 20px;
     margin-right: auto;
     margin-top: 20px;
     border: 3px solid #392F5A;
@@ -180,7 +180,7 @@ p, ul, ol {
 }
 
 .mapimage img{
-    width: 250px;
+    width: 150px;
     margin-top: 20px;
     border: 3px solid #392F5A;
 }

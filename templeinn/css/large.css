@@ -21,7 +21,11 @@
         grid-row: 1/2;
         background-color: #FFF;
         position: relative;
-        top: 50px;
+        top: 30px;
+        display: block;
+        margin-left: 50px;
+        margin-right: 75px;
+        text-align: center;
     }
     .banner{
         position: relative;
@@ -41,7 +45,9 @@
     }
     .headerlogo img{
         width: 250px;
-
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     .templefooter{
         display: grid;
@@ -66,5 +72,8 @@
     }
     .mapimage img{
         width: 150px;
+    }
+    .footerlogo img{
+        margin-left: auto;
     }
 }

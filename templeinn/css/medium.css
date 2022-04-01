@@ -2,4 +2,10 @@
     .socialnav ul{
         display: block; 
      }
+     .mapimage img{
+        width: 225px;
+    }
+    .footerlogo img{
+        margin-left: auto;
+    }
 }
