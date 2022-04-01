@@ -20,12 +20,11 @@
         grid-column: 2/3;
         grid-row: 1/2;
         background-color: #FFF;
-        position: relative;
-        top: 30px;
         display: block;
-        margin-left: 50px;
-        margin-right: 75px;
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
+        margin-top: 25px;
     }
     .banner{
         position: relative;
