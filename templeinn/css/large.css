@@ -41,7 +41,30 @@
     }
     .headerlogo img{
         width: 250px;
+
     }
-    
-    
+    .templefooter{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 66% 33%;
+    }
+    .footcontact{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin-top: 20px;
+    }
+    .footmap{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .copyinfo{
+        position: relative;
+        top: 20px;
+        grid-column: 1/4;
+        grid-row: 2/3;    
+        margin: 0 0 0 20px;  
+    }
+    .mapimage img{
+        width: 150px;
+    }
 }
