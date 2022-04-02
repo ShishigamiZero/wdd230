@@ -47,16 +47,53 @@
                 </div>
             </header>
 
-            <main class="indexhome">
-                <section id="homeheader">
+            <main class="respage">
+                <section id="resheader">
                     <h1>
-                        Temple Inn & Suites - Home
+                        Temple Inn & Suites - Reservations
                     </h1>
-                    <p >Your question has been submitted. We will contact you as soon as possible with an answer!</p>
+                    <p>Need to make a reservation? This is the place to do so!</p>
                 </section>
-                <section class="indexcontent"> 
-
-                </section>
+                <section id="reservationgrid">
+                    <form method="get" action="reservationthanks.html">
+                        <fieldset id="reservationform">
+                            <legend>
+                                Contact Information
+                            </legend>
+                                <h5 id="asterisk">Note: Asterisk * indicates a required field.</h5>
+                                <label class="top">First Name * <input type="text" name="fname" placeholder="Brigham" required></label>
+                                <label class="top">Last Name * <input type="text" name="lname"  placeholder="Young" required></label>                        
+                                <label class="top">Email * <input type="email" name="email" placeholder="someone@outlook.com" required></label>                            
+                                <label class="top">Cell Phone * <input type="tel" name="phone" placeholder="5555559876" required></label>
+                                <label class="top">Subject * <select class="dropdown" name="subject" required>
+                                        <option value="" disabled selected>Please select an inquiry subject</option>
+                                        <option value="Amenities" >Amenities</option>
+                                        <option value="Missionaries" >Missionaries</option>
+                                        <option value="Receptions" >Receptions</option>
+                                        <option value="Services" >Services</option>
+                                        <option value="Other" >Other</option>
+                                    </select></label>
+                                <label class="top">Inquiry <textarea id="inquiry" name="inquiry" rows="4" cols="50" placeholder="Please enter your questions and comments here."></textarea></label>
+                                <p id="responsemethod">Preferred Response Method</p>
+                                <label class="sbs"><input type="radio" name="response" value="phone"> Phone Call</label>
+                                <label class="sbs"><input type="radio" name="response" value="email"> Email</label>
+                        </fieldset>
+                        <div class="center">
+                        <input class="submitBtn" type="submit" value="Send Your Question!"> 
+                        </div>
+                        </form>
+    
+                        <div id="contactinfo">
+                            <p id="contactpara">Would you rather contact us in person? The Chamber of Commerce is open for regular business hours from 8am to 5pm Monday through Friday. We are closed on holidays.</p>
+                            <section id="contactaddress">
+                                <p><strong>Treasure Valley Chamber of Commmerce</strong></p>
+                                <p>1004 Powerline Rd.</p>
+                                <p>Treasure Valley, Idaho 83706</p>
+                                <p><strong>Email: </strong>tvchamber@gmail.com</p>
+                                <p><strong>Phone: </strong>(208) 555-5555</p> 
+                            </section>
+                        </div>
+                    </section>
             </main>
             
         <footer class="templefooter">
