@@ -117,5 +117,13 @@
     #contactinfo{
         top: 30px;;
     }
-
+    #reservationform{
+        width: 95%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #reservationgrid{
+        width: 80%;
+    }
 }

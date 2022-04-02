@@ -54,29 +54,76 @@
                     </h1>
                     <p>Need to make a reservation? This is the place to do so!</p>
                 </section>
+
                 <section id="reservationgrid">
+                    <section id="ressaltlake">
+                        <img src="./images/salt_lake_temple_small_ldshigh.webp" alt="Salt Lake Temple" />
+                    </section>
+                    <section id="resrexburg">
+                        <img src="./images/rexburg_idaho_temple_smallhigh.webp" alt="Rexburg Temple" />
+                    </section>
                     <form method="get" action="reservationthanks.html">
                         <fieldset id="reservationform">
                             <legend>
-                                Contact Information
+                                Reservation Information
                             </legend>
                                 <h5 id="asterisk">Note: Asterisk * indicates a required field.</h5>
                                 <label class="top">First Name * <input type="text" name="fname" placeholder="Brigham" required></label>
-                                <label class="top">Last Name * <input type="text" name="lname"  placeholder="Young" required></label>                        
+                                <label class="top">Last Name * <input type="text" name="lname"  placeholder="Young" required></label>    
+                                <label class="top">Address 1 * <input type="text" name="address1"  placeholder="555 Mitchell St." required></label> 
+                                <label class="top">Address 2 <input type="text" name="address2"  placeholder="Apartment 777"></label>
+                                <label class="top">City * <input type="text" name="city"  placeholder="Logan" required></label> 
+                                <label class="top">State / Province / Territory * <input type="text" name="state"  placeholder="Utah" required></label> 
+                                <label class="top">Zip / Postal Code * <input type="text" name="zip"  placeholder="55555"  pattern="([(?i)^[a-z0-9][a-z0-9\- ]{0,10}[a-z0-9]$])" minlength="2" ></label>  
+                                <label class="top">Country * <input type="text" name="country"  placeholder="United States" required></label>                       
                                 <label class="top">Email * <input type="email" name="email" placeholder="someone@outlook.com" required></label>                            
-                                <label class="top">Cell Phone * <input type="tel" name="phone" placeholder="5555559876" required></label>
-                                <label class="top">Subject * <select class="dropdown" name="subject" required>
-                                        <option value="" disabled selected>Please select an inquiry subject</option>
-                                        <option value="Amenities" >Amenities</option>
-                                        <option value="Missionaries" >Missionaries</option>
-                                        <option value="Receptions" >Receptions</option>
-                                        <option value="Services" >Services</option>
-                                        <option value="Other" >Other</option>
+                                <label class="top">Cell Phone * <input type="tel" name="phone" placeholder="5555559876" pattern="([/^[+]?(\d{1,2})?[\s.-]?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/])" minlength="7" required></label>
+                                <label class="top">Location * <select class="dropdown" name="location" required>
+                                        <option value="" disabled selected>Please select a location for your stay</option>
+                                        <option value="Boise" >Boise</option>
+                                        <option value="Rexburg" >Rexburg</option>
+                                        <option value="Salt Lake City" >Salt Lake City</option>
+                                        <option value="San Diego" >San Diego</option>
                                     </select></label>
-                                <label class="top">Inquiry <textarea id="inquiry" name="inquiry" rows="4" cols="50" placeholder="Please enter your questions and comments here."></textarea></label>
-                                <p id="responsemethod">Preferred Response Method</p>
-                                <label class="sbs"><input type="radio" name="response" value="phone"> Phone Call</label>
-                                <label class="sbs"><input type="radio" name="response" value="email"> Email</label>
+                                <label class="top">Start Date * <input type="date" id="StartDate" name="start-date" required></label>
+                                <label class="top">End Date * <input type="date" id="EndDate" name="end-date" required></label>
+                                <label class="top">Number of Rooms * <select class="dropdown" name="rooms" required>
+                                    <option value="" disabled selected>Please select the number of rooms needed</option>
+                                    <option value="1" >1</option>
+                                    <option value="2" >2</option>
+                                    <option value="3" >3</option>
+                                    <option value="Other" >Other (Please specify in the Special Requests section.)</option>
+                                </select></label>
+                                <label class="top">Number of Adults * <select class="dropdown" name="adults" required>
+                                    <option value="" disabled selected>How many adults?</option>
+                                    <option value="1" >1</option>
+                                    <option value="2" >2</option>
+                                    <option value="3" >3</option>
+                                    <option value="4" >4</option>
+                                    <option value="Other" >Other (Please specify in the Special Requests section.)</option>
+                                </select></label>
+                                <label class="top">Number of Children * <select class="dropdown" name="children" required>
+                                    <option value="" disabled selected>How many children?</option>
+                                    <option value="1" >1</option>
+                                    <option value="2" >2</option>
+                                    <option value="3" >3</option>
+                                    <option value="4" >4</option>
+                                    <option value="Other" >Other (Please specify in the Special Requests section.)</option>
+                                </select></label>
+                                <label class="top">Room Type * <select class="dropdown" name="roomtype" required>
+                                    <option value="" disabled selected>Please select the type of room(s) you would like</option>
+                                    <option value="standard_single" >Standard Single</option>
+                                    <option value="standard_double" >Standard Double</option>
+                                    <option value="queen_single" >Queen Single</option>
+                                    <option value="queen_double" >Queen Double</option>
+                                    <option value="king_single" >King Single</option>
+                                    <option value="king_double" >King Double</option>
+                                    <option value="king_suite" >King Suite</option>
+                                    <option value="family_suite" >Family Suite</option>
+                                    <option value="multiple" >Multiple Types (Please specify which types of rooms are needed in the Special Requests section.)</option>
+                                </select></label>
+                                <label class="top">Special Requests<textarea id="inquiry" name="requests" rows="4" cols="50" placeholder="Please enter any requests or special needs here. We will attempt to accommodate them as best as possible."></textarea></label>
+                                <input type="hidden" name="date" id="current_date" required> 
                         </fieldset>
                         <div class="center">
                         <input class="submitBtn resBtn" type="submit" value="Make Your Reservation!"> 
@@ -120,5 +167,6 @@
         <script src="./js/dates.js"></script>
         <script src="./js/menu.js"></script>
         <script src="./js/banner.js"></script>
+        <script src="./js/hiddendate.js"></script>
     </body>
 </html>

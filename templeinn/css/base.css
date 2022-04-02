@@ -247,7 +247,7 @@ nav button{
     position: relative;
     margin: 2.5rem 1rem;
     border: 1px solid #4b4269;
-    border-radius: 5px;
+    border-radius: 6px;
     padding: 0.5rem 0.5rem 2%;
     margin-bottom: 6.3rem;
 }
@@ -358,23 +358,32 @@ form input.submitBtn{
 }
 
 /************ RESERVATIONS PAGE *************/
+#respage{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
 #resheader{
     text-align: center;
     color: #FFFFFF;
-    
+}
+
+#resheader p{
+    font-size: 18px;
 }
 #reservationgrid{
     background-color: #FFF;
     border-radius: 12px;
     width: 95%;
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin-left: auto;
     margin-right: auto;
 }
-#reservationform{
-    
-}
 
-form input.resBtn{
-   margin-bottom: 30px;
+.center{
+    padding-bottom: 20px;
+}
+#ressaltlake, #resrexburg{
+    display: none;
 }
