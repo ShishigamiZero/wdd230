@@ -256,7 +256,7 @@ nav button{
 }
 #contactinfo::after{
     content: "";
-    background-image: url("http://127.0.0.1:5500/chamber/images/newtvherohigh.webp");
+    background-image: url("https://raw.githubusercontent.com/ShishigamiZero/wdd230/main/templeinn/images/meridiantemplelow.webp");
     position: absolute;
     top: 0px;
     left: 0px;
