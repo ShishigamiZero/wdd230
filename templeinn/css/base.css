@@ -340,6 +340,9 @@ form input.submitBtn{
     max-width: 40rem;
 }
 
+#contactaddress{
+    text-align: center;
+}
 /************ ATTRIBUTIONS PAGE *************/
 #attheader{
     text-align: center;
