@@ -108,4 +108,14 @@
         top: -40px;
         margin-left: 20px;
     }
+
+    #contactgrid{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contactinfo{
+        top: 30px;;
+    }
+
 }

@@ -1,4 +1,4 @@
-@media (min-width:64em) {
+@media (min-width:60em) {
     #hamburgerBtn span:nth-child(1) {display:none;}
     #hamburgerBtn span:nth-child(2) {display:none;}
     
@@ -74,5 +74,32 @@
     }
     .footerlogo img{
         margin-left: auto;
+    }
+    #contactgrid{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    #contactinfo{
+        grid-column: 2/3;
+        display: block;
+        top: 0px;
+        height: 50%;
+    }
+    
+    #contactform{
+        grid-column: 1/2;
+    }
+    #inquiry{
+        width: 95%;
+        max-width: 70rem;
+    }
+    
+    form input.submitBtn{
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+    #contactaddress{
+        margin-top: 70px;
     }
 }
