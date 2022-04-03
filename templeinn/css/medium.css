@@ -126,4 +126,8 @@
   #reservationgrid {
     width: 80%;
   }
+  .servcard ul,
+  .servcard p {
+    margin: 10px 40px;
+  }
 }
