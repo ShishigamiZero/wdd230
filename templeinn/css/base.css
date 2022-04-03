@@ -1,389 +1,411 @@
 /*********** Temple Inn & Suites Full Site CSS ***********/
-body{
-    background-color: #392F5A;
+body {
+  background-color: #392f5a;
 }
-h1, h2, h3, h4, h5, h6{
-    font-family: "Dancing Script", "Helvetica", Arial;
-}
-
-p, ul, ol {
-    font-family: "Oswald", Arial, sans-serif;
-}
-
-.headerlogo img, .footerlogo img{
-    width: 175px;
-}
-.headerlogo{
-    padding-top: 25px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Dancing Script", "Helvetica", Arial;
 }
 
-.headerlogo img{
-    margin: 25px;
-    border: 3px solid #392F5A;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+p,
+ul,
+ol {
+  font-family: "Oswald", Arial, sans-serif;
 }
 
-#date{
-    border: 2px solid #4b4269;
-    padding: 5px;
-    background-color: #FFF;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
+.headerlogo img,
+.footerlogo img {
+  width: 175px;
+}
+.headerlogo {
+  padding-top: 25px;
 }
 
-.headerdate{
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
+.headerlogo img {
+  margin: 25px;
+  border: 3px solid #392f5a;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#header2{
-    grid-column: 2/3;
+#date {
+  border: 2px solid #4b4269;
+  padding: 5px;
+  background-color: #fff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
 }
 
-#headernav{
-    margin-right: 25px;
-    padding: 0;
-    text-align: right;
+.headerdate {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
 }
 
-#headernav li{
-    grid-row: 1/2;
-    grid-column: 2/3;
-    list-style: none;
-    display: block;
-    margin-left: 30px;
+#header2 {
+  grid-column: 2/3;
 }
 
-#headernav a{
-    text-decoration: none;
-    display: block;
-    padding: 5px 5px;
-    text-transform: uppercase;
-    text-align: center;
-    border: 4px solid #4b4269;
-    background-color: #B78627;
-    color: #FFF;
-    margin-bottom: 15px;
-    margin-right: 5px;
-    border-radius: 12px;
-    transition-duration: 0.4s;
-}
-#headernav a:hover{
-    background-color: #208B3A;
+#headernav {
+  margin-right: 25px;
+  padding: 0;
+  text-align: right;
 }
 
-.socialnav ul{
-    margin: 0;
-    padding: 0;
-    text-align: right;
+#headernav li {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  list-style: none;
+  display: block;
+  margin-left: 30px;
 }
 
-.socialnav li{
-    list-style: none;
-    display: inline-block;
-    margin-right: 30px;
+#headernav a {
+  text-decoration: none;
+  display: block;
+  padding: 5px 5px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 4px solid #4b4269;
+  background-color: #b78627;
+  color: #fff;
+  margin-bottom: 15px;
+  margin-right: 5px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+}
+#headernav a:hover {
+  background-color: #208b3a;
 }
 
-.indexhome{
-    max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+.socialnav ul {
+  margin: 0;
+  padding: 0;
+  text-align: right;
 }
 
-.banner{
-    background-color: #208B3A;
-    color: #FFF;
-    width: fit-content;
-    padding: 0px 10px;
-    align-items: center;
-    justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 3px solid #000;
+.socialnav li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
 }
 
-.face, .twit{
-    background-color: #000;
-    border: 2px solid #000;
- 
+.indexhome {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.social{
-    list-style-type: none;
-    grid-row: 2/3;
-
+.banner {
+  background-color: #208b3a;
+  color: #fff;
+  width: fit-content;
+  padding: 0px 10px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #000;
 }
 
-.social li a{
-    margin-top: 25px;
-    display: inline-flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: flex-end;
-    margin-left: 20px;
+.face,
+.twit {
+  background-color: #000;
+  border: 2px solid #000;
 }
 
-.siteheader{
-    display: flex;
-    flex-direction: column;
-    margin: 40px;
-    border: 10px solid #B78627;
-    border-radius: 5px;
-    background-color: #ffee99;
+.social {
+  list-style-type: none;
+  grid-row: 2/3;
 }
 
-.indexcontent{
-    text-align: center;
+.social li a {
+  margin-top: 25px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-left: 20px;
 }
 
-#homeheader{
-    color: #FFF;
+.siteheader {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  border: 10px solid #b78627;
+  border-radius: 5px;
+  background-color: #ffee99;
 }
 
-.templefooter{
-    margin: 40px;
-    border: 10px solid #B78627;
-    border-radius: 5px;
-    background-color: #ffee99;
-    display: flex;
-    flex-direction: column;
-}
-.footerlogo img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    border: 3px solid #392F5A;
-}
-.footcontact{
-    text-align: center;
-    margin-bottom: 20px;
-}
-.footmap{
-    text-align: center;
-    margin-bottom: 30px;
+.indexcontent {
+  text-align: center;
 }
 
-.mapimage img{
-    width: 150px;
-    border: 3px solid #392F5A;
+#homeheader {
+  color: #fff;
 }
-.copyinfo{
-    text-align: center;
-    border-top: 1px solid #000;
-    margin: 0 20px;
+
+.templefooter {
+  margin: 40px;
+  border: 10px solid #b78627;
+  border-radius: 5px;
+  background-color: #ffee99;
+  display: flex;
+  flex-direction: column;
+}
+.footerlogo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: 3px solid #392f5a;
+}
+.footcontact {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.footmap {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.mapimage img {
+  width: 150px;
+  border: 3px solid #392f5a;
+}
+.copyinfo {
+  text-align: center;
+  border-top: 1px solid #000;
+  margin: 0 20px;
 }
 
 #hamburgerBtn span:nth-child(1) {
-    display:block;
+  display: block;
 }
 #hamburgerBtn span:nth-child(2) {
-    display:none;
+  display: none;
 }
 
 #hamburgerBtn.open span:nth-child(1) {
-    display:none;
+  display: none;
 }
 #hamburgerBtn.open span:nth-child(2) {
-    display:block;
+  display: block;
 }
 
-nav ul{
-    display: none; 
- }
-
-nav ul.open{
-	display: block;
-    flex: 1 1 auto;
+nav ul {
+  display: none;
 }
 
-nav button{
-	background-color: #fff;
-	border: 2px solid #555;
-	font-size: 2.5rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+nav ul.open {
+  display: block;
+  flex: 1 1 auto;
+}
+
+nav button {
+  background-color: #fff;
+  border: 2px solid #555;
+  font-size: 2.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
 }
 /************ CONTACT THANK YOU PAGE *************/
-#contactthanks, #resthanks{
-    text-align: center;
-    color: #FFF;
-    margin: 80px 0;
+#contactthanks,
+#resthanks {
+  text-align: center;
+  color: #fff;
+  margin: 80px 0;
 }
 
-#contactthanks h1, #resthanks h1{
-    margin-bottom: 40px;
+#contactthanks h1,
+#resthanks h1 {
+  margin-bottom: 40px;
 }
 
-#contactthanks p, #resthanks p{
-    font-size: 20px;
+#contactthanks p,
+#resthanks p {
+  font-size: 20px;
 }
 
 /************ CONTACT US PAGE *************/
-.contactpage{
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+.contactpage {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
-#contactform{
-    background-color: #fff;
+#contactheader {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
 }
-
-#contactgrid{
-    display: flex;
-    flex-direction: column;
-    background-color: #FFF;
-    border-radius: 12px;
-}
-#contactinfo{
-    position: relative;
-    margin: 2.5rem 1rem;
-    border: 1px solid #4b4269;
-    border-radius: 6px;
-    padding: 0.5rem 0.5rem 2%;
-    margin-bottom: 6.3rem;
-}
-#contactinfo::after{
-    content: "";
-    background-image: url("http://127.0.0.1:5500/templeinn/images/meridiantemplelow.webp");
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    opacity: 0.4;
-}
-#inquiry{
-    width: 90%;
-    max-width: 50rem;
-    background-color: #DDDDDD;
-    padding: 0.75rem;
-}
-form fieldset{
-    font-family: "Oswald", Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    margin: 2rem 1rem;
-    border: 1px solid #1a4173;
-    border-radius: 10px;
-    padding: .5rem 0.5rem 2%;
+#contactform {
+  background-color: #fff;
 }
 
-form legend{
-    color: #1a4173;
-    margin: 0 1rem;
-    padding: 0 .5rem;
+#contactgrid {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 12px;
+}
+#contactinfo {
+  position: relative;
+  margin: 2.5rem 1rem;
+  border: 1px solid #4b4269;
+  border-radius: 6px;
+  padding: 0.5rem 0.5rem 2%;
+  margin-bottom: 6.3rem;
+}
+#contactinfo::after {
+  content: "";
+  background-image: url("http://127.0.0.1:5500/templeinn/images/meridiantemplelow.webp");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.4;
+}
+#inquiry {
+  width: 90%;
+  max-width: 50rem;
+  background-color: #dddddd;
+  padding: 0.75rem;
+}
+form fieldset {
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 2rem 1rem;
+  border: 1px solid #1a4173;
+  border-radius: 10px;
+  padding: 0.5rem 0.5rem 2%;
 }
 
-form label.top, form div{
-    display: block;
-    padding-top: 1rem;
-    color: #9c2c13;
-    font-size: 1.1rem;
+form legend {
+  color: #1a4173;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
 }
 
-form label.top input, form label.top select{
-    -webkit-appearance: none;
-    display: block;
-    font-size: 1rem;
-    border: 1px solid #999;
-    border-radius: 4px;
-    padding: .75rem;
-    color: #555;
-    width: 90%;
-    max-width: 50rem;
-    background-color: rgba(0,0,0,0.1);
+form label.top,
+form div {
+  display: block;
+  padding-top: 1rem;
+  color: #9c2c13;
+  font-size: 1.1rem;
 }
 
-form input.submitBtn{
-    font-family: "Oswald", Arial, sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    border: none;
-    background-color: #1a4173;
-    color: #fff;
-    border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 96%;
-    max-width: 20rem;
-}
-.top, .sbs, #responsemethod{
-    margin-left: 15px;
+form label.top input,
+form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: 1px solid #999;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: #555;
+  width: 90%;
+  max-width: 50rem;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
-#asterisk{
-    color: #5e1a0b;
-    margin: 10px 0 0 15px;
-    font-size: 16px;
+form input.submitBtn {
+  font-family: "Oswald", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  background-color: #1a4173;
+  color: #fff;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 96%;
+  max-width: 20rem;
 }
-.dropdown{
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background: transparent url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat 100% center;
-    padding-right: 5px;
-    max-width: 50rem;
+.top,
+.sbs,
+#responsemethod {
+  margin-left: 15px;
 }
 
-#contactaddress{
-    text-align: center;
+#asterisk {
+  color: #5e1a0b;
+  margin: 10px 0 0 15px;
+  font-size: 16px;
+}
+.dropdown {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent
+    url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png)
+    no-repeat 100% center;
+  padding-right: 5px;
+  max-width: 50rem;
+}
+
+#contactaddress {
+  text-align: center;
 }
 /************ ATTRIBUTIONS PAGE *************/
-#attheader{
-    text-align: center;
-    color: #FFF;
+#attheader {
+  text-align: center;
+  color: #fff;
 }
 
-#attheader p{
-    font-size: 18px;
+#attheader p {
+  font-size: 18px;
 }
-.attcontent{
-    background-color: white;
-    color: #000;
-    border: 5px solid #B78627;
-    border-radius: 12px;
+.attcontent {
+  background-color: white;
+  color: #000;
+  border: 5px solid #b78627;
+  border-radius: 12px;
 }
 
 /************ RESERVATIONS PAGE *************/
-#respage{
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+#respage {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
-#resheader{
-    text-align: center;
-    color: #FFFFFF;
-}
-
-#resheader p{
-    font-size: 18px;
-}
-#reservationgrid{
-    background-color: #FFF;
-    border-radius: 12px;
-    width: 95%;
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
+#resheader {
+  text-align: center;
+  color: #ffffff;
 }
 
-.center{
-    padding-bottom: 20px;
+#resheader p {
+  font-size: 18px;
 }
-#ressaltlake, #resrexburg{
-    display: none;
+#reservationgrid {
+  background-color: #fff;
+  border-radius: 12px;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  padding-bottom: 20px;
+}
+#ressaltlake,
+#resrexburg {
+  display: none;
 }
