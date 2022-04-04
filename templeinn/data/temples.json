@@ -1,7 +1,7 @@
 {
-    "temples": [
+    "temple": [
       {
-        "imageurl": "",
+        "imageurl": "https://shishigamizero.github.io/wdd230/templeinn/images/meridian_idaho_temple_smalllow.webp",
         "name": "Meridian Idaho Temple",
         "streetaddress": "7355 N Linder Rd",
         "city": "Meridian",
@@ -15,12 +15,12 @@
         "sesschedule": "By Appointment Only",
         "president": "Robert Howard Sainsbury",
         "announcement": "2 April 2011",
-        "groundbraking": "23 August 2014",
+        "groundbreaking": "23 August 2014",
         "dedication": "19 November 2017 by Dieter F. Uchtdorf",
         "closchedule": "Monday, 30 May 2022 - Monday, 13 June 2022; Saturday, 1 October 2022; Monday, 31 October 2022 - Monday, 14 November 2022; Wednesday, 23 November 2022 - Thursday, 24 November 2022; Saturday, 24 December 2022; Saturday, 31 December 2022"   
       },
       {
-        "imageurl": "",
+        "imageurl": "https://shishigamizero.github.io/wdd230/templeinn/images/mesa_temple_smalllow.webp",
         "name": "Mesa Arizona Temple",
         "streetaddress": "101 S LeSueur",
         "city": "Mesa",
@@ -34,12 +34,12 @@
         "sesschedule": "By Appointment Only",
         "president": "Kenneth McKay Smith",
         "announcement": "3 October 1919",
-        "groundbraking": "25 April 1922 by Heber J. Grant",
+        "groundbreaking": "25 April 1922 by Heber J. Grant",
         "dedication": "23-26 October 1927 by Heber J. Grant",
         "closchedule": "Tuesday, 5 April 2022 - Saturday, 16 April 2022 (Limited Operations); Monday, 18 July 2022 - Monday, 1 August 2022; Saturday, 1 October 2022; Wednesday, 23 November 2022 (Limited Operations); Thursday, 24 November 2022; Saturday, 24 December 2022"   
       },
       {
-        "imageurl": "",
+        "imageurl": "https://shishigamizero.github.io/wdd230/templeinn/images/salt_lake_temple_smalllow.webp",
         "name": "Salt Lake Temple",
         "streetaddress": "50 West North Temple Street",
         "city": "Salt Lake City",
@@ -53,12 +53,12 @@
         "sesschedule": "Closed During Renovation",
         "president": "Blaine Jackson Wixom Jr.",
         "announcement": "28 July 1847",
-        "groundbraking": "14 February 1853 by Brigham Young",
+        "groundbreaking": "14 February 1853 by Brigham Young",
         "dedication": "6-24 April 1893 by Wilford Woodruff",
         "closchedule": "Closed During Renovation"   
       },      
       {
-        "imageurl": "",
+        "imageurl": "https://shishigamizero.github.io/wdd230/templeinn/images/san_diego_california_temple_smalllow.webp",
         "name": "San Diego California Temple",
         "streetaddress": "7474 Charmant Dr",
         "city": "San Diego",
@@ -72,7 +72,7 @@
         "sesschedule": "By Appointment Only",
         "president": "James Parker Little",
         "announcement": "7 April 1984",
-        "groundbraking": "27 February 1988 by Ezra Taft Benson",
+        "groundbreaking": "27 February 1988 by Ezra Taft Benson",
         "dedication": "25-30 April 1993 by Gordon B. Hinckley",
         "closchedule": "Saturday, 1 October 2022; Wednesday, 23 November 2022 - Thursday, 24 November 2022; Saturday, 24 December 2022; Saturday, 31 December 2022"   
       }

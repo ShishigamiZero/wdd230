@@ -529,3 +529,7 @@ form input.submitBtn:hover {
   color: #fff;
 }
 /************ TEMPLES PAGE *************/
+#templeheader{
+  text-align: center;
+  color:#FFF;
+}
