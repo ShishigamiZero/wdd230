@@ -187,8 +187,9 @@
   .missiongrid{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 40% 42% 18%;
+    grid-template-rows: 45% 35% 16%;
     grid-gap: 20px;
+    width: 65%;
     margin: 40px auto;
   }
 
