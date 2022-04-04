@@ -385,6 +385,10 @@ form input.submitBtn:hover {
   border-radius: 12px;
 }
 
+.attcontent h2, p{
+  margin-left: 15px;
+}
+
 /************ RESERVATIONS PAGE *************/
 #respage {
   width: 90%;
@@ -518,3 +522,9 @@ form input.submitBtn:hover {
  .servcard li{
    margin-right: 10px;
  }
+
+.receptiondesc{
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+}

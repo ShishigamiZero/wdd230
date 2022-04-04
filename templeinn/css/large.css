@@ -216,4 +216,34 @@
     grid-column: 1/3;
     grid-row: 3/4;
   }
+
+  .receptionpics{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 35% 53% 12%;
+    grid-gap: 20px;
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  #venue{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 90%;
+  }
+  #staircase{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    height: 90%;
+  }
+  #platter{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 90%;
+  }
+  #cake{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    height: 90%;
+  }
 }
