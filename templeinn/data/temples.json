@@ -1,0 +1,72 @@
+{
+    "temples": [
+      {
+        "imageurl": "",
+        "name": "Meridian Idaho Temple",
+        "streetaddress": "7355 N Linder Rd",
+        "city": "Meridian",
+        "state": "Idaho",
+        "country": "United States",
+        "zipcode": 83646,
+        "phone": "(1) 208-957-7300",
+        "website": "https://www.churchofjesuschrist.org/temples/details/meridian-idaho-temple?lang=eng",
+        "email": "",
+        "ordschedule": "By Appointment Only",
+        "sesschedule": "By Appointment Only",
+        "president": "Robert Howard Sainsbury",
+        "history": "Announced on 2 April 2011; Groundbroken on 23 August 2014; Dedicated on 19 November 2017",
+        "closchedule": "Monday, 30 May 2022 - Monday, 13 June 2022; Saturday, 1 October 2022; Monday, 31 October 2022 - Monday, 14 November 2022; Wednesday, 23 November 2022 - Thursday, 24 November 2022; Saturday, 24 December 2022; Saturday, 31 December 2022"   
+      },
+      {
+        "imageurl": "",
+        "name": "Salt Lake Temple",
+        "streetaddress": "50 West North Temple Street",
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "country": "United States",
+        "zipcode": 84150,
+        "phone": "(1) 801-240-2640",
+        "website": "https://www.churchofjesuschrist.org/temples/details/salt-lake-temple?lang=eng",
+        "email": "",
+        "ordschedule": "Closed During Renovation",
+        "sesschedule": "Closed During Renovation",
+        "president": "Blaine Jackson Wixom Jr.",
+        "history": "",
+        "closchedule": "Closed During Renovation"   
+      },
+      {
+        "imageurl": "",
+        "name": "",
+        "streetaddress": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "zipcode": 55555,
+        "phone": "",
+        "website": "",
+        "email": "",
+        "ordschedule": "By Appointment Only",
+        "sesschedule": "By Appointment Only",
+        "president": "",
+        "history": "",
+        "closchedule": ""   
+      },
+      {
+        "imageurl": "",
+        "name": "",
+        "streetaddress": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "zipcode": 55555,
+        "phone": "",
+        "website": "",
+        "email": "",
+        "ordschedule": "By Appointment Only",
+        "sesschedule": "By Appointment Only",
+        "president": "",
+        "history": "",
+        "closchedule": ""   
+      }
+    ]
+}

@@ -268,7 +268,7 @@ nav button {
 }
 #contactinfo::after {
   content: "";
-  background-image: url("http://127.0.0.1:5500/templeinn/images/meridiantemplelow.webp");
+  background-image: url("https://shishigamizero.github.io/wdd230/templeinn/images/meridiantemplelow.webp");
   background-repeat: no-repeat;
   position: absolute;
   top: 0px;
