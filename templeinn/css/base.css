@@ -503,3 +503,18 @@ form input.submitBtn:hover {
   font-size: 20px;
   margin: 20px auto;
 }
+/************ RECEPTIONS PAGE *************/
+#receptionheader{
+  text-align: center;
+  color: #fff;
+}
+
+.receptioncontent{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 20px auto;
+}
+ .servcard li{
+   margin-right: 10px;
+ }

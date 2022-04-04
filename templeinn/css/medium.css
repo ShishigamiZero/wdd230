@@ -130,6 +130,11 @@
   .servcard p {
     margin: 10px 40px;
   }
+  .servicecontent{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .missiongrid{
     width: 55%;
     margin-left: auto;
