@@ -32,14 +32,14 @@ fetch(requestURL)
     h2.textContent = temple.name;
     p1.innerHTML = `${temple.streetaddress} ${temple.city}, ${temple.state} ${temple.zipcode}, ${temple.country}<br>`;
     p2.innerHTML = `${temple.phone} <br>`;
-    p3.innerHTML = `${temple.website} <br>`;
+    p3.innerHTML = `<a href="${temple.website}" target="_blank">${temple.name} Webspage</a> <br>`;
     p4.innerHTML = `<strong>Ordinance Schedule:</strong> ${temple.ordschedule} <br>`;
     p5.innerHTML = `<strong>Session Schedule:</strong> ${temple.sesschedule} <br>`;
     p6.innerHTML = `<strong>President:</strong> ${temple.president} <br>`;
-    p7.innerHTML = `<strong>Announcement:</strong> ${temple.announcement}`;
-    p8.innerHTML = `<strong>Groundbreaking:</strong> ${temple.groundbreaking}`;
-    p9.innerHTML = `<strong>Dedication:</strong> ${temple.dedication}`;
-    p10.innerHTML = `<strong>Temple Closure Dates:</strong> ${temple.closchedule}`;
+    p7.innerHTML = `<strong>Announcement:</strong> ${temple.announcement} <br>`;
+    p8.innerHTML = `<strong>Groundbreaking:</strong> ${temple.groundbreaking} <br>`;
+    p9.innerHTML = `<strong>Dedication:</strong> ${temple.dedication} <br>`;
+    p10.innerHTML = `<strong>Temple Closure Dates:</strong> ${temple.closchedule} <br>`;
 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', temple.imageurl);

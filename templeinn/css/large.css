@@ -247,4 +247,12 @@
     grid-row: 2/3;
     height: 90%;
   }
+  .cards{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+    margin: 20px auto;
+    width: 90%;
+  }
+
 }
