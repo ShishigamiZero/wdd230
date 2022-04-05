@@ -32,7 +32,7 @@ fetch(requestURL)
     h2.textContent = temple.name;
     p1.innerHTML = `${temple.streetaddress} ${temple.city}, ${temple.state} ${temple.zipcode}, ${temple.country}<br>`;
     p2.innerHTML = `${temple.phone} <br>`;
-    p3.innerHTML = `<a href="${temple.website}" target="_blank">${temple.name} Webspage</a> <br>`;
+    p3.innerHTML = `<a href="${temple.website}" target="_blank">${temple.name} Webpage</a> <br>`;
     p4.innerHTML = `<strong>Ordinance Schedule:</strong> ${temple.ordschedule} <br>`;
     p5.innerHTML = `<strong>Session Schedule:</strong> ${temple.sesschedule} <br>`;
     p6.innerHTML = `<strong>President:</strong> ${temple.president} <br>`;
