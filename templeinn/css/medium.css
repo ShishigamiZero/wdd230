@@ -146,4 +146,8 @@
   #platter img{
     width: 60%;
   }
+  .cards{
+    width: 80%;
+    margin: 20px auto;
+  }
 }
