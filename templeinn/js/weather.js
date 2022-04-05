@@ -3,18 +3,18 @@
 /*
 Boise (Treasure Valley) Area  Weather Info for API
 
-{
-    "id": 5586437,
-    "name": "Boise",
-    "state": "ID",
-    "country": "US",
-    "coord": {
-        "lon": -116.203453,
-        "lat": 43.613499
-    }
+    {
+        "id": 5600685,
+        "name": "Meridian",
+        "state": "ID",
+        "country": "US",
+        "coord": {
+            "lon": -116.39151,
+            "lat": 43.61211
+        }
 */
 
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5586437&appid=e681baa04b7db3d01b4b4bb6cfe8420a&units=imperial";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5600685&appid=e681baa04b7db3d01b4b4bb6cfe8420a&units=imperial";
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
