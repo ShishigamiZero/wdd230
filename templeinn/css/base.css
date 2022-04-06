@@ -614,3 +614,6 @@ q{
 #about{
   margin-right: 20px;
 }
+#caddress, #ccitystate, #ccountry, #cemail, #cphone, #separate{
+  margin-right: 20px;
+}
