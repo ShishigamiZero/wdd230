@@ -562,3 +562,42 @@ form input.submitBtn:hover {
   border-radius: 12px;
   border: 3px solid #4b4269;
 }
+/************ INDEX PAGE *************/
+#homeheader{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.indexcontent{
+  display: flex;
+  flex-direction: column;
+}
+.spots section, #weather, #contactcorp, #reviews{
+  background-color: #fff8f0;
+  border: 5px solid #b78627;
+  border-radius: 12px;
+  width: 95%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.spots section h2{
+  text-align: center;
+}
+.spots p1, p2, p3, p4, p5, p6{
+  font-family: "Oswald", Arial, sans-serif;
+}
+.spots img{
+  display: block;
+  width: 30%;
+  margin: 10px auto;
+}
+q:before,
+q:after {
+	content: "";
+}
+q{
+  font-weight: 600;
+}
