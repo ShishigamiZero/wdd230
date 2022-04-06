@@ -617,3 +617,6 @@ q{
 #caddress, #ccitystate, #ccountry, #cemail, #cphone, #separate{
   margin-right: 20px;
 }
+#weather p{
+  margin-right: 20px;
+}
