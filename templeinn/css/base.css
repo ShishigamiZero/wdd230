@@ -608,8 +608,8 @@ q{
   font-weight: 600;
 }
 
-#reviews{
-  padding-right: 20px;
+#brown, #williams, #anderson{
+  margin-right: 20px;
 }
 #about{
   margin-right: 20px;
