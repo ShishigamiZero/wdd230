@@ -1,7 +1,7 @@
 /*  Weather Code with API to use starting 3/9/2022  */
 
 /*
-Boise (Treasure Valley) Area  Weather Info for API
+Meridian Area  Weather Info for API
 
     {
         "id": 5600685,

@@ -75,7 +75,7 @@ fetch(requestURL)
     p3.innerHTML = `${temple.country} <br>`;
     p4.innerHTML = `${temple.phone} <br>`;
     p5.innerHTML = `<strong>President:</strong> ${temple.president} <br>`
-    p6.innerHTML = `<strong>Dedication:<strong> ${temple.dedication} `
+    p6.innerHTML = `<strong>Dedication:</strong> ${temple.dedication} `
 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', temple.imageurl);
