@@ -611,12 +611,12 @@ q{
 #brown, #williams, #anderson{
   margin-right: 20px;
 }
-#about{
+#about, #contactcorp h2{
   margin-right: 20px;
 }
 #caddress, #ccitystate, #ccountry, #cemail, #cphone, #separate{
   margin-right: 20px;
 }
-#weather p{
+#weather h2, p{
   margin-right: 20px;
 }
